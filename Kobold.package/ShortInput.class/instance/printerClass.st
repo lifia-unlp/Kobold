@@ -1,0 +1,4 @@
+private
+printerClass
+
+	^ShortInputPrinter

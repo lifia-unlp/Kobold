@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEvent",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sourceURL",
+		"time",
+		"targetURL"
+	],
+	"name" : "LongRequest",
+	"type" : "normal"
+}

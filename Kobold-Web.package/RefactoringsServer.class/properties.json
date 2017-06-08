@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SelfRefactoringService",
+	"category" : "Kobold-Web-RESTfulAPI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RefactoringsServer",
+	"type" : "normal"
+}

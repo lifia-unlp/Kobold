@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"token",
+		"badsmells",
+		"finders",
+		"usabiltyEvents",
+		"persistEvents"
+	],
+	"name" : "Client",
+	"type" : "normal"
+}

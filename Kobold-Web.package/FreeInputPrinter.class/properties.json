@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BadSmellOnInputPrinter",
+	"category" : "Kobold-Web-USmellsPrinters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FreeInputPrinter",
+	"type" : "normal"
+}

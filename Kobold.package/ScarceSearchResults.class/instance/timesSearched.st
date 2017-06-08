@@ -1,0 +1,4 @@
+accessing
+timesSearched
+
+	^self eventsCount

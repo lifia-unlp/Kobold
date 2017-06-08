@@ -1,0 +1,1 @@
+A UsabilityRefactoring is a small change to a Web Interface that improves usability while keeping its functionality.

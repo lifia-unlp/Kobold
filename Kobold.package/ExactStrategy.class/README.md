@@ -1,0 +1,1 @@
+Matches strings if they are exactly the same

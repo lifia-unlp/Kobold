@@ -1,0 +1,3 @@
+threats filtering
+usesFlashScrolling
+	^ true

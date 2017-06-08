@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JulianGrigera 6/8/2017 11:20",
+	"super" : "Object",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"startTime",
+		"duration"
+	],
+	"name" : "Interruption",
+	"type" : "normal"
+}

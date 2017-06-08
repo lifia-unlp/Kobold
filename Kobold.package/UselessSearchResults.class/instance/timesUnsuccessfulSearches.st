@@ -1,0 +1,4 @@
+accessing
+timesUnsuccessfulSearches
+
+	^self unsuccessfulSearches size

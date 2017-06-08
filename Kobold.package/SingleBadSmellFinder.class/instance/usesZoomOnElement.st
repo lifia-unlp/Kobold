@@ -1,0 +1,3 @@
+events filtering
+usesZoomOnElement
+	^ false

@@ -1,0 +1,4 @@
+private
+characterWidth
+
+	^8

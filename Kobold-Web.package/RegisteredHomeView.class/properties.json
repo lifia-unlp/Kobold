@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractView",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"view",
+		"views"
+	],
+	"name" : "RegisteredHomeView",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+JavaScript resources for event capture and Threats loading

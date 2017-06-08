@@ -1,0 +1,1 @@
+A SingleBadSmellFinder is designed to find out one specific Bad Smell fron a collection of threats that affect a specific DOM Element.

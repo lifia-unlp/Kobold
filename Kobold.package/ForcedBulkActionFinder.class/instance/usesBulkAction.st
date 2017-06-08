@@ -1,0 +1,4 @@
+threats filtering
+usesBulkAction
+
+	^true

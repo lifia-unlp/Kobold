@@ -1,0 +1,3 @@
+refactoring
+suggestedRefactorings
+	^ OrderedCollection new

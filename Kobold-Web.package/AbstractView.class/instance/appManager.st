@@ -1,0 +1,3 @@
+accessing
+appManager
+	^ApplicationManager instance.

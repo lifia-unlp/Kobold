@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"client",
+		"username",
+		"email",
+		"encriptedPassword",
+		"salt",
+		"new",
+		"id"
+	],
+	"name" : "RegisteredClient",
+	"type" : "normal"
+}

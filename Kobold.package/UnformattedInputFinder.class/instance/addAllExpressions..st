@@ -1,0 +1,3 @@
+accessing
+addAllExpressions: expressionsCollection
+	self expressions addAll: expressionsCollection.

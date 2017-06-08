@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "JulianGrigera 11/4/2016 20:39",
+	"super" : "Object",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"groupingStrategy",
+		"cachedSmells",
+		"minimumEventsCount"
+	],
+	"name" : "SingleBadSmellFinder",
+	"type" : "normal"
+}

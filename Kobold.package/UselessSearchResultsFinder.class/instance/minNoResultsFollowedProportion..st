@@ -1,0 +1,4 @@
+accessing
+minNoResultsFollowedProportion: aFloat
+
+	minNoResultsFollowedProportion:= aFloat

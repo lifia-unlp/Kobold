@@ -1,0 +1,3 @@
+threats filtering
+usesNavigationPath
+	^ true

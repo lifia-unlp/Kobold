@@ -1,0 +1,3 @@
+printing
+listDetails
+	^ self url

@@ -1,0 +1,4 @@
+testing
+isPassword
+
+	^self text = '********'

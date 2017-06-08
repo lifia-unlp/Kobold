@@ -1,0 +1,1 @@
+A quick scroll action, either up or downwards, of a long area.

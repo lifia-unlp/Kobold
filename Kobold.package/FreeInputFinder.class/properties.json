@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "SingleBadSmellFinderOnElement",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"strategy",
+		"maximumUnfrequentValuesProportion",
+		"minimumGroupProportion"
+	],
+	"name" : "FreeInputFinder",
+	"type" : "normal"
+}

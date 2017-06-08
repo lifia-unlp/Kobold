@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "OptionSelection",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name"
+	],
+	"name" : "RadioButtonSelection",
+	"type" : "normal"
+}

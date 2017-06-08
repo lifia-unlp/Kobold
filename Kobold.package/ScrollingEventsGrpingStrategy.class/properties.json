@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "HashEventsGroupingStrategy",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ScrollingEventsGrpingStrategy",
+	"type" : "normal"
+}

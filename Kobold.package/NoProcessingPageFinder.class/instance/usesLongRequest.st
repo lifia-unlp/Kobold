@@ -1,0 +1,4 @@
+threats filtering
+usesLongRequest
+
+	^true

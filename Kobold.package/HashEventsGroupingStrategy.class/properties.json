@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulianGrigera 11/4/2016 19:55",
+	"super" : "EventsGroupingStrategy",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "HashEventsGroupingStrategy",
+	"type" : "normal"
+}

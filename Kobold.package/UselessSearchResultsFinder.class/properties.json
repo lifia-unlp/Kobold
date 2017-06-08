@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SingleBadSmellFinderOnElement",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"minNoResultsFollowedProportion"
+	],
+	"name" : "UselessSearchResultsFinder",
+	"type" : "normal"
+}

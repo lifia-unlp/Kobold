@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilitySmellOnElement",
+	"category" : "Kobold-USmells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"strategy",
+		"minimumGroupProportion",
+		"valuesBySimilarity",
+		"valuesWithOccurrences",
+		"groups",
+		"hasPasswords",
+		"hasPlainText"
+	],
+	"name" : "FreeInput",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEventOnElement",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"text",
+		"keystrokes",
+		"correction",
+		"time"
+	],
+	"name" : "TextInputTyping",
+	"type" : "normal"
+}

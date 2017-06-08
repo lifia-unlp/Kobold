@@ -1,0 +1,1 @@
+A visit to a specific URL with interruptions - i.e. periods of no activity form the user.

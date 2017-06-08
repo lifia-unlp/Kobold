@@ -1,0 +1,1 @@
+Similar to Undescriptive Element but specific to links. Besides the tooltip attempts on it, users frequently visit the linked contents, only to return shortly after.

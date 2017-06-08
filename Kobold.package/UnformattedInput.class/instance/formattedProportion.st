@@ -1,0 +1,4 @@
+accessing
+formattedProportion
+
+	^self largestFormattedProportion

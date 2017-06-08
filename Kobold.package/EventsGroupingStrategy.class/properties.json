@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulianGrigera 9/20/2016 15:24",
+	"super" : "Object",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"smells"
+	],
+	"name" : "EventsGroupingStrategy",
+	"type" : "normal"
+}

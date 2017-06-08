@@ -1,0 +1,3 @@
+controlling
+recalculateBadSmells
+	self client recalculateBadSmells

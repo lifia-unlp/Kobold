@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Kobold-Extensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"xpath",
+		"url",
+		"boundingBox",
+		"content",
+		"html",
+		"parentsList",
+		"treeMap"
+	],
+	"name" : "DomElement",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+bad smells
+minNoResultsFollowedProportion
+
+	^minNoResultsFollowedProportion

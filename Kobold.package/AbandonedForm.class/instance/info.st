@@ -1,0 +1,4 @@
+accessing
+info
+
+	^'A form is usually abandoned by the users before being submitted.'

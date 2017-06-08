@@ -1,0 +1,1 @@
+Seaside Web Frontend for reporting Bad UX Smells

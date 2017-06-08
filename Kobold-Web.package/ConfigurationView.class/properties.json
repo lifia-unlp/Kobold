@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractView",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"password",
+		"repassword",
+		"changePassword"
+	],
+	"name" : "ConfigurationView",
+	"type" : "normal"
+}
