@@ -1,0 +1,1 @@
+A Kobold's client. Differs from User in that it has no login information. It can be created withourt depending on the web  frontend.

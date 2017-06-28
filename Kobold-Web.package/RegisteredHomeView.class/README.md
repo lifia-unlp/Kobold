@@ -1,0 +1,1 @@
+Main view when logged in to Kobold
