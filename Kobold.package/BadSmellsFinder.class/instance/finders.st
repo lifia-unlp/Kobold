@@ -1,4 +1,0 @@
-accessing
-finders
-
-	^finders

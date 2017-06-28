@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	users:= OrderedCollection new.
+	users := OrderedCollection new

@@ -5,4 +5,5 @@ prepareForDeployment
 		turnOffDebugging;
 		unregisterDevelopmentApplications;
 		setupServer;
-		setupMongoDatabase
+		setupMongoDatabase;
+		loadInstanceFromDatabase

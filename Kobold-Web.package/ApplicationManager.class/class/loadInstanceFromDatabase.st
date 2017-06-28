@@ -1,0 +1,3 @@
+voyage
+loadInstanceFromDatabase
+	ApplicationManager resetInstance

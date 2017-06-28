@@ -1,3 +1,0 @@
-accessing
-badSmellsFinder
-	^BadSmellsFinder instance

@@ -1,4 +1,3 @@
 instance creation
 instance
-	instance ifNil: [ self resetInstance ].
-	^ instance
+	^ Instance ifNil: [ Instance := self readFromDatabaseOrNew ]

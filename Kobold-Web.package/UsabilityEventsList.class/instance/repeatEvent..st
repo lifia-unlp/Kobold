@@ -1,3 +1,5 @@
 controlling
 repeatEvent: anEvent
-	self client replicateEvent: anEvent times: 100
+	self client
+		replicateEvent: anEvent times: 100;
+		save

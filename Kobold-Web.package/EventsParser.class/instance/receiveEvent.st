@@ -2,12 +2,15 @@ rest api
 receiveEvent
 	<post>
 	<path: '/'>
-	| eventClass newEvent parameters client |
+	| eventClass newEvent parameters client application |
 	parameters := self requestContext request fields.
-	eventClass := (parameters at: 'threat') asSymbol asClass.
-	[ client := BadSmellsFinder instance clientAtToken: (parameters at: 'token') asSymbol ]
+	application := ApplicationManager instance.
+	eventClass := self class environment
+		at: (parameters at: 'threat') asSymbol.
+	[ client := application
+		clientAtToken: (parameters at: 'token') asSymbol ]
 		on: InvalidToken
-		do: [ :ex |  ].
+		do: [ :ex | self respondInvalidTokenError ].
 	newEvent := eventClass fromGetParameters: parameters.
 	client
 		addEvent: newEvent;

@@ -2,11 +2,11 @@
 	"commentStamp" : "JulianGrigera 11/7/2016 12:25",
 	"super" : "Object",
 	"category" : "Kobold-Web-Frontend",
-	"classinstvars" : [
-		"instance"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Instance"
+	],
 	"instvars" : [
 		"users",
 		"id"

@@ -1,3 +1,3 @@
 bad smells
-badSmellOn: threats
-	^ UnresponsiveElement on: threats any domElement events: threats
+badSmellOn: events
+	^ UnresponsiveElement on: events any domElement events: events
