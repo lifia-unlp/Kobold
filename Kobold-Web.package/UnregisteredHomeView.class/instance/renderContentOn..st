@@ -11,5 +11,5 @@ renderContentOn: html
 						with: [ self renderLogin: html.
 							self renderRegisterButton: html.
 							self renderLogs: html forClass: 'RegisterErrors'.
-							self renderModalRegistry: html ] ].
-			self renderFooter: html ]
+							self renderModalRegistry: html ] ] ].
+	self renderFooter: html
