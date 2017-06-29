@@ -1,5 +1,6 @@
 rendering
 renderContentOn: html
+	self renderGithubRibbonOn: html.
 	self renderNavbar: html.
 	html tbsContainer
 		with: [ html
@@ -12,4 +13,4 @@ renderContentOn: html
 							self renderRegisterButton: html.
 							self renderLogs: html forClass: 'RegisterErrors'.
 							self renderModalRegistry: html ] ] ].
-	self renderFooter: html
+	self renderFooterOn: html

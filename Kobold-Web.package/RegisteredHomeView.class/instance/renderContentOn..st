@@ -6,4 +6,4 @@ renderContentOn: html
 		class: #mainContainer;
 		with: [ self renderMenu: html.
 			html render: self view ].
-	self renderFooter: html
+	self renderFooterOn: html

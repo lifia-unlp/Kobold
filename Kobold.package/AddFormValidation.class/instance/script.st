@@ -8,12 +8,14 @@ script
 			script := script , '
 				requiredInput = $(xpathInstance.getElementByXpath(''', requiredInputXpath ,'''));
 				requiredInput.addClass('' requiredInput '');
-				requiredInput.before(''(*)'');
+				requiredInput.after(''(*)'');
+				requiredInput.css("width","90%");
+				requiredInput.attr("originalBorderColor", requiredInput.css("border-color"));
 				requiredInput.blur(function(){ 
 					if ( !$(this).val() ) {
-						$(this).css("background-color","rgb(255, 176, 173)");
+						$(this).css("border-color","rgb(255, 0, 0)");
 					} else {
-						$(this).css("background-color","");
+						$(this).css("border-color",$(this).attr("originalBorderColor"));
 					}
 				} );
 			'].
@@ -25,7 +27,7 @@ script
 					var requiredInputs = $(".requiredInput");
 					for (var i = 0; i < requiredInputs.length; i++) {
 						if ( !requiredInputs.get(i) || !$(requiredInputs.get(i)).val() ) {
-							requiredInputs.css("background-color","rgb(255, 176, 173)")
+							requiredInputs.css("border-color","rgb(255, 0, 0)");
 							e.preventDefault();
 							return false;
 						}
