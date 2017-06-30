@@ -1,4 +1,3 @@
 testing
 isPassword
-
-	^self text = '********'
+	^ self text = '********'

@@ -1,7 +1,6 @@
 instance creation
 fromGetParameters: getParameters
-
-	^(super fromGetParameters: getParameters)
+	^ (super fromGetParameters: getParameters)
 		text: (getParameters at: 'text');
 		time: (getParameters at: 'time') asNumber;
 		keystrokes: (getParameters at: 'keystrokes') asNumber;
