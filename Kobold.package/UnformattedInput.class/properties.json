@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"expressions"
+		"expressions",
+		"refactoringsByExpression"
 	],
 	"name" : "UnformattedInput",
 	"type" : "normal"

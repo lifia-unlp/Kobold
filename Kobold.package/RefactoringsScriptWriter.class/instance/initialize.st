@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initialize
 	super initialize.
-	refactorings := OrderedCollection new.
+	refactorings := OrderedCollection new

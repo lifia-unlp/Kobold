@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UsabilityRefactoring",
+	"category" : "Kobold-URefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AddProcessingPage",
+	"type" : "normal"
+}

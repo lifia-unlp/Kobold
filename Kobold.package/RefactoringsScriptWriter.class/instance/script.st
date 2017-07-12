@@ -1,4 +1,3 @@
 code generation
 script
-
-	^self refactoringsInitializationScript, self refactoringsScripts
+	^ self refactoringsInitializationScript , self refactoringsScripts

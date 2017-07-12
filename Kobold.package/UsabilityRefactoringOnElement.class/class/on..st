@@ -1,6 +1,5 @@
 instance creation
 on: domElement
-
-	^(self new)
+	^ self new
 		domElement: domElement;
 		yourself

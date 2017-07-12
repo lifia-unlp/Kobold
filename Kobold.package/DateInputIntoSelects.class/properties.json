@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UsabilityRefactoringOnElement",
+	"category" : "Kobold-URefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DateInputIntoSelects",
+	"type" : "normal"
+}
