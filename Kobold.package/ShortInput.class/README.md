@@ -1,1 +1,2 @@
-An input box is shorter than the values usually typed on it, often hiding the full typed text.
+# Inadequate Input Size
+This smell is detected when an input field's length doesn't match the size of the expected text. Inadequate text input width is a confusing issue, as pointed out by authors like Wroblewski [(Wroblewski 2008)](https://www.lukew.com/resources/web_form_design.asp).
