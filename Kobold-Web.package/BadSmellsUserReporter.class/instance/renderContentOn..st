@@ -1,10 +1,7 @@
 rendering
 renderContentOn: html
-
-	self client isNil
-		ifTrue: 
-			[(html heading)
+	self client
+		ifNil: [ html heading
 				level: 4;
-				with: 'No client configured']
-		ifFalse: 
-			[self badSmellsList: html]
+				with: 'No client configured' ]
+		ifNotNil: [ self badSmellsList: html ]

@@ -1,11 +1,13 @@
 accessing
-renderOn: t1 
-	"	***This is decompiled code.*** 
-	No source was available"
-
-	| t2 |
-	t2 := self identifier.
-	(t1 canvas) id: 'pie' , t2; width: 150; height: 150.
-	t1 script: ' var ctx' , t2 , ' = $("#pie' , t2 , '").get(0).getContext("2d");
-		var data' , t2 , ' = [  ' , self dataObjects , '];'.
-	^self
+renderOn: html
+	html canvas
+		id: 'pie' , self identifier;
+		width: 150;
+		height: 150.
+	html
+		script:
+			(' var ctx<1s> = $("#pie<1s>").get(0).getContext("2d");
+		var data<1s> = [ <2s> ];
+		var pie<1s> = new Chart(ctx<1s>).Doughnut(data<1s>);'
+				expandMacrosWith: self identifier
+				with: self dataObjects)

@@ -3,7 +3,4 @@ script
 	^ String
 		streamContents: [ :stream | 
 			stream << super script.
-			stream << 'var input = $(xpathInstance.getElementByXpath('.
-			stream << self elementXpath.
-			stream << '));'.
-			stream << 'if(typeof(input[0]) != "undefined") input.dateDropdowns();' ]
+			stream << ('if(typeof(<1s>[0]) != "undefined") <1s>.dateDropdowns();' expandMacrosWith: self elementVarName) ]

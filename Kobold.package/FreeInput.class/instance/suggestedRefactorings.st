@@ -1,4 +1,4 @@
 accessing
 suggestedRefactorings
-	^ OrderedCollection
-		with: (AddAutocomplete on: self domElement values: self frequentValues)
+	^ self suggestedRefactoringsClasses
+		collect: [ :refactoringClass | refactoringClass from: self ]

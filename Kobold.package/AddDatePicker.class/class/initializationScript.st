@@ -11,7 +11,7 @@ initializationScript
 
     https://github.com/joshsalverda/datepickr
 
-    Copyright Â© 2014 Josh Salverda <josh.salverda@gmail.com>
+    Copyright © 2014 Josh Salverda <josh.salverda@gmail.com>
     This program is free software. It comes without any warranty, to
     the extent permitted by applicable law. You can redistribute it
     and/or modify it under the terms of the Do What The Fuck You Want
