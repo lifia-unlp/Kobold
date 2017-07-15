@@ -1,5 +1,2 @@
-AddFormValidation adds form validation in the client. Refactoring for ConfusingForm.
-
-Instance Variables
-	domElement	<MessageForwarder | Object | ProtoObject | ProtoObject>	description of domElement
-
+# Add Form Validation
+Provides validation on the client, right after each field, so users don't have to hit "Submit" before  finding out there's a missing or invalid datum.

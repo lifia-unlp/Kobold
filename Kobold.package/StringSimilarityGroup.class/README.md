@@ -1,0 +1,1 @@
+Group of similar strings used in FreeInput.

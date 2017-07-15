@@ -1,3 +1,3 @@
 accessing - refactoring
 suggestedRefactoringsClasses
-	^ AddProcessingPage inOrderedCollection
+	^ ProvideDefaultOption inOrderedCollection

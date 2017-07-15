@@ -1,18 +1,14 @@
 accessing
 script
-	^ String
+	| macros |
+	macros := Dictionary new
+		at: #element put: self elementVarName;
+		at: #url put: self url asString;
+		yourself.
+	^ (String
 		streamContents: [ :stream | 
 			stream
 				nextPutAll: super script;
-				cr;
-				nextPutAll: 'element = $(xpathInstance.getElementByXpath(';
-				nextPutAll: self locator;
-				nextPutAll: '));';
-				cr;
-				nextPutAll: 'if(typeof(element[0]) != "undefined") ';
-				cr;
-				tab;
-				nextPutAll: 'element.replaceWith( $("<a href=';
-				nextPutAll: self url asString;
-				nextPutAll: '>"+element[0].outerHTML+"</a>"));';
-				cr ]
+				nextPutAll: 'if(typeof({element}[0]) != "undefined")';
+				nextPutAll: '{element}.replaceWith($("<a href=''{url}''>"+{element}[0].outerHTML+"</a>"));';
+				cr ]) format: macros

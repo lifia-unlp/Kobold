@@ -1,3 +1,4 @@
-refactoring
+accessing - refactoring
 suggestedRefactorings
-	^ OrderedCollection new
+	^ self suggestedRefactoringsClasses
+		collect: [ :refactoringClass | refactoringClass from: self ]

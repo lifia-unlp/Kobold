@@ -1,12 +1,15 @@
 code generation
 script
-
 	| script |
 	script := ''.
-	requiredInputs do: 
-			[:requiredInputXpath |
-			script := script , '
-				requiredInput = $(xpathInstance.getElementByXpath(''', requiredInputXpath ,'''));
+	requiredInputs
+		do: [ :requiredInputXpath | 
+			script := script
+				,
+					'
+				requiredInput = $(xpathInstance.getElementByXpath(''' , requiredInputXpath
+				,
+					'''));
 				requiredInput.addClass('' requiredInput '');
 				requiredInput.after(''(*)'');
 				requiredInput.css("width","90%");
@@ -18,11 +21,14 @@ script
 						$(this).css("border-color",$(this).attr("originalBorderColor"));
 					}
 				} );
-			'].
-	
-	script := script , '
+			' ].
+	script := script
+		,
+			'
 			  $("document").ready(function(){
-				var form = $(xpathInstance.getElementByXpath(''',self domElement xpath,'''));
+				var form = $(xpathInstance.getElementByXpath(''' , self domElement xpath
+		,
+			'''));
 				form.submit(function(e){
 					var requiredInputs = $(".requiredInput");
 					for (var i = 0; i < requiredInputs.length; i++) {
@@ -34,5 +40,5 @@ script
 					}
 				});
 			 });
-			'. 
-	^script
+			'.
+	^ script

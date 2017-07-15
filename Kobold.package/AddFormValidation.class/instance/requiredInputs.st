@@ -1,4 +1,3 @@
 accessing
 requiredInputs
-
-	^requiredInputs
+	^ requiredInputs

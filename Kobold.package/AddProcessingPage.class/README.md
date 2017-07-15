@@ -1,0 +1,2 @@
+# Add Processing Page
+This refactoring adds a "loading..." overlay before a form submission that usually takes a long time. This should give users a cue on the fact that  there's an ongoing process, as opposed to a frozen UI.
