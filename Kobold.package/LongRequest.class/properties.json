@@ -8,7 +8,8 @@
 	"instvars" : [
 		"sourceURL",
 		"time",
-		"targetURL"
+		"targetURL",
+		"formXPath"
 	],
 	"name" : "LongRequest",
 	"type" : "normal"

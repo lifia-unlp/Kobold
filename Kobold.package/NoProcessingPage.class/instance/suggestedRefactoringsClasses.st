@@ -1,0 +1,3 @@
+accessing
+suggestedRefactoringsClasses
+	^ OrderedCollection with: AddProcessingPage

@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"formXPath"
+	],
 	"name" : "AddProcessingPage",
 	"type" : "normal"
 }
