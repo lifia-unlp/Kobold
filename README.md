@@ -19,3 +19,11 @@ Check the video to see how it works
 [![Kobold Screencast](https://s3.amazonaws.com/selfrefactoring/screencasts/preview.png)](https://youtu.be/c-myYPMUh0Q)
 
 
+## Installation
+```smalltalk
+Metacello new
+	baseline: 'Kobold';
+	repository: 'github://juliangrigera/Kobold';
+	load.
+```
+(Ignore the warning, it still loads, working on a Baseline fix)
