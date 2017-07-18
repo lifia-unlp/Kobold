@@ -9,6 +9,9 @@ baseline: spec
 				voyage: spec.
 			spec
 				package: 'Kobold';
-				package: 'Kobold-Web' with: [ spec requires: #('Seaside3' 'Bootstrap' 'Voyage' 'Kobold') ].
+				package: 'Kobold-Web'
+					with: [ spec
+						requires:
+							#('Seaside3' 'Bootstrap' 'Voyage' 'Kobold' 'Seaside-JSON-Core' 'Seaside-Pharo-JSON-Core' 'Seaside-REST-Core') ].
 			spec group: 'default' with: #('Kobold' 'Kobold-Web').
 			spec postLoadDoIt: #postLoadActions ]

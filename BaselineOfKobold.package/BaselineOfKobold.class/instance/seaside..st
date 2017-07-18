@@ -10,5 +10,8 @@ seaside: spec
 		package: 'Seaside-REST-Core'
 		with: [ spec repository: 'github://SeasideSt/Seaside:v3.2.0/repository' ].
 	spec
+		package: 'Seaside-JSON-Core'
+		with: [ spec repository: 'github://SeasideSt/Seaside:v3.2.0/repository' ].
+	spec
 		package: 'Seaside-Pharo-JSON-Core'
 		with: [ spec repository: 'github://SeasideSt/Seaside:v3.2.0/repository' ]
