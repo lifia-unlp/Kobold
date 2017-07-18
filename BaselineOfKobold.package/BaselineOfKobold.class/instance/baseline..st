@@ -6,9 +6,10 @@ baseline: spec
 		do: [ self
 				seaside: spec;
 				bootstrap: spec;
+				xmlParserHTML: spec;
 				voyage: spec.
 			spec
-				package: 'Kobold';
+				package: 'Kobold' with: [ spec requires: #('XMLParserHTML') ];
 				package: 'Kobold-Web'
 					with: [ spec
 						requires:
