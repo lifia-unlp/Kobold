@@ -12,6 +12,6 @@ baseline: spec
 				package: 'Kobold-Web'
 					with: [ spec
 						requires:
-							#('Seaside3' 'Bootstrap' 'Voyage' 'Kobold' 'Seaside-JSON-Core' 'Seaside-Pharo-JSON-Core' 'Seaside-REST-Core') ].
+							#('Seaside3' 'Seaside-Pharo20-Core' 'Bootstrap' 'Voyage' 'Kobold' 'Seaside-JSON-Core' 'Seaside-Pharo-JSON-Core' 'Seaside-REST-Core') ].
 			spec group: 'default' with: #('Kobold' 'Kobold-Web').
 			spec postLoadDoIt: #postLoadActions ]
