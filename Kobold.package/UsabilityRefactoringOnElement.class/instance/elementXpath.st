@@ -1,3 +1,3 @@
 accessing
 elementXpath
-	^ self domElement xpath printString copyReplaceAll: '"' with: '\"'
+	^ self domElement xpath printString

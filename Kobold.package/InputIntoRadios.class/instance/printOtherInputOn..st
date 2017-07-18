@@ -1,15 +1,14 @@
 code generation
 printOtherInputOn: aStream
-	| macros |
-	macros := Dictionary
+	| localMacros |
+	localMacros := Dictionary
 		with: #id -> (UUIDGenerator next printString copyWithoutAll: #-)
 		with: #name -> self refactoringId
-		with: #value -> 'Other'
-		with: #element -> self elementVarName.
-	aStream << self elementVarName.
-	aStream << '.after("<p>'.
-	aStream << ('<input type=\\"radio\\" name=\\"{name}\\" id=\\"{id}\\" value=\\"{value}\\"> ' format: macros).
-	aStream << ('<label style=\\"cursor:pointer\\" for=\\"{id}\\">{value}</label> ' format: macros).
-	aStream << ('<input type=\\"text\\" id=\\"text{id}\\"/></p>");' format: macros).
-	aStream << ('$(\"#text{id}\").keyup(function()\{{element}.val(this.value)\})' format: macros).
-	aStream << ('.click(function()\{$(\"#{id}\").prop("checked", true)\});' format: macros)
+		with: #value -> 'Other'.
+	aStream << '{elementVarName}.after("<p>'.
+	aStream << ('<input type=''radio'' name=''{name}'' id=''{id}'' value=''{value}''>' format: localMacros).
+	aStream << ('<label style=''cursor:pointer'' for=''{id}''>{value}</label> ' format: localMacros).
+	aStream << ('<input type=''text'' id=''text{id}''/></p>");' format: localMacros).
+	aStream
+		<< ('$(\"#text<1s>\").keyup(function()\{{elementVarName}.val(this.value)\})' expandMacrosWith: (localMacros at: #id)).
+	aStream << ('.click(function()\{$(\"#<1s>\").prop("checked", true)\});' expandMacrosWith: (localMacros at: #id))

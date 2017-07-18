@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "",
-	"super" : "SelfRefactoringService",
+	"commentStamp" : "JulianGrigera 7/17/2017 10:29",
+	"super" : "KoboldService",
 	"category" : "Kobold-Web-RESTfulAPI",
 	"classinstvars" : [ ],
 	"pools" : [ ],

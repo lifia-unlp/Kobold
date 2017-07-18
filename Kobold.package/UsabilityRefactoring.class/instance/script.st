@@ -1,3 +1,7 @@
 code generation
 script
-	^ '/********* ' , self class name , ' ***********/ \' withCRs
+
+	^ ((String
+		streamContents: [ :stream | 
+			stream << '/********* {refactoringName} ***********/ \'.
+			self printScriptOn: stream ]) format: self macros) withCRs

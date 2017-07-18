@@ -1,4 +1,3 @@
 accessing
 url
-
-	^url
+	^ url

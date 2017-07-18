@@ -1,4 +1,3 @@
 accessing
 name
-
-	^'Turn Attribute Into Link'
+	^ 'Turn Attribute Into Link'

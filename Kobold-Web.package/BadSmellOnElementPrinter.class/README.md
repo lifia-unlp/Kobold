@@ -1,1 +1,2 @@
-Seaside Web Frontend for reporting Bad UX Smells
+# BadSmellOnElementPrinter
+Seaside Web Frontend for reporting  UsabilitySmells on a DOM element
