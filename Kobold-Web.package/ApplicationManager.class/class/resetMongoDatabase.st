@@ -1,3 +1,0 @@
-deployment
-resetMongoDatabase
-	VORepository current reset
