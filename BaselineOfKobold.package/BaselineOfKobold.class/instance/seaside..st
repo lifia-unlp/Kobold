@@ -11,6 +11,9 @@ seaside: spec
 		with: [ spec repository: 'github://SeasideSt/Seaside:v3.2.0/repository' ].
 	spec
 		package: 'Seaside-Pharo20-Core'
+		with: [ spec repository: 'github://SeasideSt/Seaside:v3.2.0/repository' ]..
+	spec
+		package: 'Javascript-Pharo20-Core'
 		with: [ spec repository: 'github://SeasideSt/Seaside:v3.2.0/repository' ].
 	spec
 		package: 'Seaside-JSON-Core'
