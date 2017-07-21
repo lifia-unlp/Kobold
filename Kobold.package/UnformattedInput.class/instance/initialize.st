@@ -11,7 +11,7 @@ initialize
 	number := Expression new: '\d+' name: 'Number input'.
 	expressions := OrderedCollection with: email with: date with: number.
 	refactoringsByExpression := Dictionary new
-		at: email put: OrderedCollection new;
-		at: number put: OrderedCollection new;
-		at: date put: (OrderedCollection with: AddDatePicker with: DateInputIntoSelects);
+		at: email name put: OrderedCollection new;
+		at: number name put: OrderedCollection new;
+		at: date name put: (OrderedCollection with: AddDatePicker with: DateInputIntoSelects);
 		yourself

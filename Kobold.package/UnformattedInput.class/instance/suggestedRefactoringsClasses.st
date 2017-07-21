@@ -1,3 +1,3 @@
 accessing - refactoring
 suggestedRefactoringsClasses
-	^ self refactoringsClassesByExpression at: self expression
+	^ self refactoringsClassesByExpression at: self expression name
