@@ -1,3 +1,3 @@
-controlling
+accessing
 ignoredSmellsCount
 	^ self client ignoredSmellsCount

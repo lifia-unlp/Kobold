@@ -1,4 +1,3 @@
 accessing
 name
-
-	^'Usability Smells'
+	^ 'Usability Smells'

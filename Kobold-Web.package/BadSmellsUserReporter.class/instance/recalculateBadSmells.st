@@ -1,3 +1,5 @@
 controlling
 recalculateBadSmells
-	self client recalculateBadSmells
+	self client
+		recalculateBadSmells;
+		save
