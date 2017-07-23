@@ -4,12 +4,8 @@ renderMenu: html
 		class: 'nav nav-tabs';
 		with: [ self views
 				do: [ :availableView | 
-					| activeClass |
-					self view class = availableView class
-						ifTrue: [ activeClass := 'active' ]
-						ifFalse: [ activeClass := '' ].
 					html listItem
-						class: activeClass;
+						class: #active if: self view class = availableView class;
 						with: [ html anchor
-								callback: [ self goTo: availableView ];
-								with: [ availableView tabNameOn: html ] ] ] ]
+								callback: [ self view: availableView ];
+								with: [ availableView renderTabNameOn: html ] ] ] ]

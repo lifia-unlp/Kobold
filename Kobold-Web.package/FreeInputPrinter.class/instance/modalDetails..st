@@ -1,4 +1,4 @@
-printing
+rendering
 modalDetails: html
 	super modalDetails: html.
 	html paragraph

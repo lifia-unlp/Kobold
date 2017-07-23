@@ -1,7 +1,7 @@
 code generation
 initializationScript
 	^ '
-	var style=document.createElement(''link'');
+   var style=document.createElement(''link'');
    style.rel=''stylesheet'';
    style.href=''https://s3.amazonaws.com/selfrefactoring/resources/refactorings/datepickr.min.css'';
    $("head").append(style);

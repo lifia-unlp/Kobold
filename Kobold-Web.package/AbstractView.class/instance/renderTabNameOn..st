@@ -1,4 +1,3 @@
 rendering
-tabNameOn: html
-
+renderTabNameOn: html
 	html text: self name

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulianGrigera 7/22/2017 20:09",
+	"super" : "WAComponent",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"refactoring"
+	],
+	"name" : "RefactoringSourceCodeView",
+	"type" : "normal"
+}

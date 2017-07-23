@@ -11,4 +11,4 @@ initialize
 		addLibrary: JQUiDevelopmentLibrary;
 		addLibrary: TBSDeploymentLibrary;
 		addLibrary: SelfRefactoringResources.
-	application preferenceAt: #sessionClass put: USFSession
+	application preferenceAt: #sessionClass put: KoboldSession

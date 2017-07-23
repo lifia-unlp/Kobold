@@ -1,5 +1,5 @@
 rendering
-tabNameOn: html
+renderTabNameOn: html
 	
 	html tbsGlyphIcon iconCog.
 	html space.

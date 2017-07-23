@@ -1,4 +1,7 @@
 accessing
 valuesString
-
-	^self values fold: [:concatenation :string | concatenation, String cr, string]
+	^ String
+		streamContents: [ :stream | 
+			self values
+				do: [ :value | stream << value ]
+				separatedBy: [ stream << (String with: Character cr) ] ]

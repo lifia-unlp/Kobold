@@ -1,4 +1,5 @@
-accessing
+accessing - macros
 valuesList
-	
-	^(self values inject:'' into: [:valuesList :value | valuesList, '"', value, '", ']) allButLast: 2
+	^ String
+		streamContents:
+			[ :stream | self values do: [ :value | stream << value printString ] separatedBy: [ stream << ',' ] ]

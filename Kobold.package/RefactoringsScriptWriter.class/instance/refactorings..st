@@ -1,4 +1,3 @@
 accessing
-refactorings: anObject
-
-	refactorings := anObject
+refactorings: someRefactorings
+	refactorings := someRefactorings

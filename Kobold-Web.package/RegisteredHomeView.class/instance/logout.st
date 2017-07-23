@@ -1,3 +1,3 @@
-actions
+controlling
 logout
-	self session logout.
+	self session logout

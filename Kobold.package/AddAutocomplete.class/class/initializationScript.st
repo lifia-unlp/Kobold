@@ -1,10 +1,10 @@
 code generation
 initializationScript
 	^ '
-	var style=document.createElement(''link'');
-   style.rel=''stylesheet'';
-   style.href=''https://selfrefactoring.s3.amazonaws.com/resources/refactorings/awesomplete.css'';
-   $("head").append(style);
+var style=document.createElement(''link'');
+style.rel=''stylesheet'';
+style.href=''https://selfrefactoring.s3.amazonaws.com/resources/refactorings/awesomplete.css'';
+$("head").append(style);
 
 // Awesomplete - Lea Verou - MIT license
 (function(){function m(a,b){for(var c in a){var f=a[c],e=this.input.getAttribute("data-"+c.toLowerCase());this[c]="number"===typeof f?+e:!1===f?null!==e:f instanceof Function?null:e;this[c]=this[c]||b[c]||f}}function d(a,b){return"string"===typeof a?(b||document).querySelector(a):a||null}function h(a,b){return k.call((b||document).querySelectorAll(a))}function l(){h("input.awesomplete").forEach(function(a){new Awesomplete(a)})}var g=self.Awesomplete=function(a,b){var c=this;this.input=d(a);this.input.setAttribute("aria-autocomplete",
@@ -15,7 +15,4 @@ this.index},get opened(){return this.ul&&null==this.ul.getAttribute("hidden")},c
 this.ul.children;this.selected&&b[this.index].setAttribute("aria-selected","false");this.index=a;-1<a&&0<b.length&&(b[a].setAttribute("aria-selected","true"),this.status.textContent=b[a].textContent)},select:function(a){if(a=a||this.ul.children[this.index]){var b;d.fire(this.input,"awesomplete-select",{text:a.textContent,preventDefault:function(){b=!0}});b||(this.replace(a.textContent),this.close(),d.fire(this.input,"awesomplete-selectcomplete"))}},evaluate:function(){var a=this,b=this.input.value;
 b.length>=this.minChars&&0<this._list.length?(this.index=-1,this.ul.innerHTML="",this._list.filter(function(c){return a.filter(c,b)}).sort(this.sort).every(function(c,d){a.ul.appendChild(a.item(c,b));return d<a.maxItems-1}),0===this.ul.children.length?this.close():this.open()):this.close()}};g.all=[];g.FILTER_CONTAINS=function(a,b){return RegExp(d.regExpEscape(b.trim()),"i").test(a)};g.FILTER_STARTSWITH=function(a,b){return RegExp("^"+d.regExpEscape(b.trim()),"i").test(a)};g.SORT_BYLENGTH=function(a,
 b){return a.length!==b.length?a.length-b.length:a<b?-1:1};var k=Array.prototype.slice;d.create=function(a,b){var c=document.createElement(a),f;for(f in b){var e=b[f];"inside"===f?d(e).appendChild(c):"around"===f?(e=d(e),e.parentNode.insertBefore(c,e),c.appendChild(e)):f in c?c[f]=e:c.setAttribute(f,e)}return c};d.bind=function(a,b){if(a)for(var c in b){var d=b[c];c.split(/\s+/).forEach(function(b){a.addEventListener(b,d)})}};d.fire=function(a,b,c){var d=document.createEvent("HTMLEvents");d.initEvent(b,
-!0,!0);for(var e in c)d[e]=c[e];a.dispatchEvent(d)};d.regExpEscape=function(a){return a.replace(/[-\\^$*+?.()|[\]{}]/g,"\\$&")};"loading"!==document.readyState?l():document.addEventListener("DOMContentLoaded",l);g.$=d;g.$$=h})();
-
-
-	'
+!0,!0);for(var e in c)d[e]=c[e];a.dispatchEvent(d)};d.regExpEscape=function(a){return a.replace(/[-\\^$*+?.()|[\]{}]/g,"\\$&")};"loading"!==document.readyState?l():document.addEventListener("DOMContentLoaded",l);g.$=d;g.$$=h})();'

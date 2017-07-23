@@ -2,7 +2,8 @@ rendering
 renderCodeButtonOn: html
 	html
 		paragraph: [ html anchor
-				callback: [ self refactoring script inspect ];
-				with: [ html tbsGlyphIcon iconFont.
-					html space.
-					html text: 'See Code' ] ]
+				callback: [ self showSourceCode ];
+				with: [ html tbsGlyphIcon iconConsole.
+					html
+						space;
+						text: 'See Code' ] ]

@@ -1,4 +1,4 @@
-accessing
+accessing - macros
 macros
 	^ super macros
 		at: #elementVarName put: self elementVarName;

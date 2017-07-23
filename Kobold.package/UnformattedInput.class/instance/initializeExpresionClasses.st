@@ -1,0 +1,15 @@
+initialization
+initializeExpresionClasses
+	| email date number |
+	email := Expression
+		new: '[-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+\.[a-zA-Z]{2,4}'
+		name: 'Email input'.
+	date := Expression
+		new: '[0-3]?[0-9][/-][0-3]?[0-9]([/-](19|20)\d\d)?'
+		name: 'Date input'.
+	number := Expression new: '\d+' name: 'Number input'.
+	refactoringsByExpression := Dictionary new
+		at: email name put: #();
+		at: number name put: #();
+		at: date name put: #(AddDatePicker DateInputIntoSelects);
+		yourself
