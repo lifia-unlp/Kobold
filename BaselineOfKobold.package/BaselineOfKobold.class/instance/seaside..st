@@ -7,10 +7,10 @@ seaside: spec
 				versionString: #'release3.2';
 				repository: 'github://SeasideSt/Seaside:v3.2.0/repository' ].
 	spec
-		package: 'Seaside-REST-Core'
+		package: 'Seaside-Pharo20-Core'
 		with: [ spec repository: 'github://SeasideSt/Seaside:v3.2.0/repository' ].
 	spec
-		package: 'Seaside-Pharo20-Core'
+		package: 'Seaside-REST-Core'
 		with: [ spec repository: 'github://SeasideSt/Seaside:v3.2.0/repository' ].
 	spec
 		package: 'Seaside-Pharo40-Continuation'
