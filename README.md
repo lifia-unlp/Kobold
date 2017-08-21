@@ -26,4 +26,8 @@ Metacello new
 	repository: 'github://juliangrigera/Kobold';
 	load.
 ```
-(Ignore the warning, it still loads, working on a Baseline fix)
+(Ignore the warning and proceed, it loads fine, I'm working on a Baseline fix...)
+
+Requires MongoDB
+
+After the code's loaded, point your browser to http://localhost:8080/Home
