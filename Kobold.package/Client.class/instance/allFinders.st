@@ -1,5 +1,5 @@
 initialization
 allFinders
-	finders := SingleBadSmellFinder allConcreteSubclasses
+	finders := UsabilitySmellFinder allConcreteSubclasses
 		collect: [ :finderClass | finderClass new ].
 	^ finders asOrderedCollection

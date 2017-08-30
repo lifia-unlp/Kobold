@@ -10,6 +10,6 @@
 		"cachedSmells",
 		"minimumEventsCount"
 	],
-	"name" : "SingleBadSmellFinder",
+	"name" : "UsabilitySmellFinder",
 	"type" : "normal"
 }
