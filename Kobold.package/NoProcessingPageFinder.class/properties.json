@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "SingleBadSmellFinderOnURL",
+	"super" : "UsabilitySmellFinderOnURL",
 	"category" : "Kobold-USmellsFinders",
 	"classinstvars" : [ ],
 	"pools" : [ ],

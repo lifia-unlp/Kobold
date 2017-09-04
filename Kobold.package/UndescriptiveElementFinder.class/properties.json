@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SingleBadSmellFinderOnElement",
+	"super" : "UsabilitySmellFinderOnElement",
 	"category" : "Kobold-USmellsFinders",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,4 +1,0 @@
-accessing
-nilsimsaTolerance
-
-	^100

@@ -1,4 +1,4 @@
 configuration
 toleratedMilliseconds
 
-	^5000
+	^10000

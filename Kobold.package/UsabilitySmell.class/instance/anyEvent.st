@@ -1,3 +1,3 @@
 accessing
 anyEvent
-	^ self events first
+	^ self events anyOne

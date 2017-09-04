@@ -1,4 +1,3 @@
 bad smells
-badSmellOn: threats
-
-	^NoProcessingPage events: threats
+badSmellOn: events
+	^ NoProcessingPage events: events

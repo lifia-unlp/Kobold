@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SingleBadSmellFinderOnURL",
+	"name" : "UsabilitySmellFinderOnURL",
 	"type" : "normal"
 }

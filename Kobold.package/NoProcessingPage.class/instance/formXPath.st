@@ -1,3 +1,3 @@
 accessing
 formXPath
-	^ self events anyOne formXPath
+	^ self anyEvent formXPath

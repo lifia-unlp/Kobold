@@ -1,4 +1,3 @@
 accessing
 targetURL
-
-	^self events any targetURL
+	^ self anyEvent targetURL

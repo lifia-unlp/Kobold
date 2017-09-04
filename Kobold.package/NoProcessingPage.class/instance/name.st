@@ -1,4 +1,3 @@
 accessing
 name
-
-	^'No Processing Page'
+	^ 'No Processing Page'

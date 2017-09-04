@@ -1,4 +1,3 @@
 configuration
 minimumRequests
-
-	^15
+	^ 15

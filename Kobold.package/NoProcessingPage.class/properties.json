@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"eventsCount",
+		"timeAverage"
+	],
 	"name" : "NoProcessingPage",
 	"type" : "normal"
 }
