@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "Kobold-Tests",
+	"classinstvars" : [
+		"smell"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"smell",
+		"times"
+	],
+	"name" : "NoProcessingPageTest",
+	"type" : "normal"
+}
