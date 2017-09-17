@@ -1,4 +1,3 @@
 accessing
 name
-
-	^'Provide Default Option'
+	^ 'Provide Default Option'

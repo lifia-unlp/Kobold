@@ -1,4 +1,5 @@
 initialization
 initialize
 	super initialize.
-	self minimumExceededInputsProportion: 0.3
+	excessThreshold := 50.
+	shortfallThreshold := 50

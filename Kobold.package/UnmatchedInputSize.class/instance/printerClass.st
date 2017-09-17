@@ -1,4 +1,3 @@
 private
 printerClass
-
-	^ShortInputPrinter
+	^ UnmatchedInputSizePrinter

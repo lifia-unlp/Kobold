@@ -6,3 +6,4 @@ testAddEvent
 	smellShort addEvent: (self newTextInputWithTextLength: 400).
 	self assert: smellShort textLengthMean equals: (lengths copyWith: 400) average asFloat.
 	self assert: smellShort textLengthStandardDeviation equals: (lengths copyWith: 400) stdev asFloat.
+	self assert: smellShort eventsCount equals: lengths size + 1.

@@ -1,4 +1,3 @@
 instance creation
 new
-
-	^super new initialize
+	^ super new initialize

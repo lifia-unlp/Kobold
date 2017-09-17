@@ -1,4 +1,4 @@
 events filtering
-usesTextInputTyping
+usesTextInput
 
 	^false

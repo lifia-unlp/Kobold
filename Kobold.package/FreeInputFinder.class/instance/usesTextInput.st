@@ -1,4 +1,4 @@
 threats filtering
-usesTextInputTyping
+usesTextInput
 
 	^true

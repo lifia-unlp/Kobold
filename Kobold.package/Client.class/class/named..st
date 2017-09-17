@@ -1,7 +1,6 @@
 instance creation
 named: aName
-
-	^(super new)
+	^ super new
 		name: aName;
 		initialize;
 		yourself

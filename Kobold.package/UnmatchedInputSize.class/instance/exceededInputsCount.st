@@ -1,4 +1,3 @@
 accessing
 exceededInputsCount
-
-	^self exceededInputs size
+	^ self exceededInputs size

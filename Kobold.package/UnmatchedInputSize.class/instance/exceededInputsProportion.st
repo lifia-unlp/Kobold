@@ -1,4 +1,3 @@
 accessing
 exceededInputsProportion
-
-	^self exceededInputsCount / self eventsCount
+	^ self exceededInputsCount / self eventsCount

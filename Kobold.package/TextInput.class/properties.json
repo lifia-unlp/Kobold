@@ -11,8 +11,8 @@
 		"correction",
 		"time",
 		"textWidth",
-		"inputWidth"
+		"inputLength"
 	],
-	"name" : "TextInputTyping",
+	"name" : "TextInput",
 	"type" : "normal"
 }

@@ -1,4 +1,3 @@
 accessing
 defaultOptionIndex: anInteger
-
-	defaultOptionIndex:= anInteger
+	defaultOptionIndex := anInteger

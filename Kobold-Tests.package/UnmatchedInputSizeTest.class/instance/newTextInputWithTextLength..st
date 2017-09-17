@@ -18,6 +18,6 @@ newTextInputWithTextLength: textLength
 		at: 'correction' put: 'false';
 		at: 'textWidth' put: '0';
 		at: 'fieldWidth' put: '200'.
-	^ (TextInputTyping fromGetParameters: mockParameters)
+	^ (TextInput fromGetParameters: mockParameters)
 		textWidth: textLength;
 		yourself
