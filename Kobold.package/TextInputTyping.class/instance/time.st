@@ -1,4 +1,3 @@
 accessing
 time
-
-	^time
+	^ time

@@ -1,4 +1,3 @@
 accessing
 keystrokes
-
-	^keystrokes
+	^ keystrokes

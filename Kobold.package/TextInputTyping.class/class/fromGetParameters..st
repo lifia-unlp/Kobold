@@ -5,4 +5,6 @@ fromGetParameters: getParameters
 		time: (getParameters at: 'time') asNumber;
 		keystrokes: (getParameters at: 'keystrokes') asNumber;
 		correction: (getParameters at: 'correction') = 'true';
+		textWidth: (getParameters at: 'textWidth');
+		inputWidth: (getParameters at: 'fieldWidth');
 		yourself

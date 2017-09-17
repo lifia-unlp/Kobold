@@ -8,6 +8,6 @@
 	"instvars" : [
 		"minimumExceededInputsProportion"
 	],
-	"name" : "ShortInputFinder",
+	"name" : "UnmatchedInputSizeFinder",
 	"type" : "normal"
 }

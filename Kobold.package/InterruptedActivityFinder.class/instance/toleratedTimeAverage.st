@@ -2,4 +2,4 @@ bad smells
 toleratedTimeAverage
 	"in Milliseconds"
 
-	^ 10000
+	^ 6000

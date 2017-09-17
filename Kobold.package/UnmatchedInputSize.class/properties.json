@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "ShortInput",
+	"instvars" : [
+		"textLengthVariance",
+		"textLengthMean",
+		"eventsCount"
+	],
+	"name" : "UnmatchedInputSize",
 	"type" : "normal"
 }

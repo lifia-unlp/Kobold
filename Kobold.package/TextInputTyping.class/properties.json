@@ -9,7 +9,9 @@
 		"text",
 		"keystrokes",
 		"correction",
-		"time"
+		"time",
+		"textWidth",
+		"inputWidth"
 	],
 	"name" : "TextInputTyping",
 	"type" : "normal"

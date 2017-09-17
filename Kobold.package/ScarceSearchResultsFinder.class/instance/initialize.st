@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	self minimumEventsCount: 2.
-	self minimumNoResultsProportion: 0.4
+	self minimumEventsCount: 50.
+	self minimumNoResultsProportion: 0.3

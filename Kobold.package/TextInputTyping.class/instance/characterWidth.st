@@ -1,4 +1,0 @@
-private
-characterWidth
-
-	^8

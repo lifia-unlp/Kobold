@@ -1,4 +1,3 @@
 testing
 manuallyTyped
-
-	^self text size <= self keystrokes
+	^ self text size <= self keystrokes

@@ -1,7 +1,8 @@
 accessing
 requiredInputs
-	^ (self failedSubmissions flatCollectAsSet: [ :submission | submission emptyInputs ])
-		asOrderedCollection
-		copyWithoutAll:
-			(self successfulSubmissions flatCollectAsSet: [ :submission | submission emptyInputs ])
-				asOrderedCollection
+	| emptyWhenSubmissionFailed emptyWhenSubmissionSucceeded |
+	emptyWhenSubmissionFailed := (self failedSubmissions
+		flatCollectAsSet: [ :submission | submission emptyInputs ]) asOrderedCollection.
+	emptyWhenSubmissionSucceeded := (self successfulSubmissions
+		flatCollectAsSet: [ :submission | submission emptyInputs ]) asOrderedCollection.
+	^ emptyWhenSubmissionFailed copyWithoutAll: emptyWhenSubmissionSucceeded
