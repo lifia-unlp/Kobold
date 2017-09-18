@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RefactoringPrinter",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AddTooltipPrinter",
+	"type" : "normal"
+}

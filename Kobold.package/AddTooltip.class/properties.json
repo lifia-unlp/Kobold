@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UsabilityRefactoringOnElement",
+	"category" : "Kobold-URefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"text"
+	],
+	"name" : "AddTooltip",
+	"type" : "normal"
+}

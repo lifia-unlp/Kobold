@@ -1,3 +1,3 @@
 accessing - refactoring
 suggestedRefactoringsClasses
-	^ RenameElement inOrderedCollection
+	^ OrderedCollection with: AddTooltip with: RenameElement
