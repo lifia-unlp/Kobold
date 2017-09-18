@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulianGrigera 9/18/2017 09:08",
+	"super" : "RefactoringPrinter",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SuggestedRefactoringPrinter",
+	"type" : "normal"
+}
