@@ -1,3 +1,7 @@
 accessing - refactoring
 suggestedRefactoringsClasses
-	^ SplitPage inOrderedCollection
+	| suggestions |
+	suggestions := SplitPage inOrderedCollection.
+	self upwards
+		ifTrue: [ suggestions add: LinkToTop ].
+	^ suggestions
