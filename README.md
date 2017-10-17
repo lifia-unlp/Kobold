@@ -3,7 +3,7 @@
 Usability-As-A-Service tool for Web Applications.
 Working version running at
 
-[http://autorefactoring.lifia.info.unlp.edu.ar](http://autorefactoring.lifia.info.unlp.edu.ar)
+[https://autorefactoring.lifia.info.unlp.edu.ar](https://autorefactoring.lifia.info.unlp.edu.ar)
 
 ## Overview
 Kobold scans your web app's real users' activity to search for usability smells. When you check the reports, Kobold will recommend you to take action by applying usability refactorings. In some cases, you'll be able to apply automatically generated refactorings for you.
