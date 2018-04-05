@@ -6,8 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"newVersion"
+		"version",
+		"action"
 	],
-	"name" : "NewVersionView",
+	"name" : "VersionFormView",
 	"type" : "normal"
 }

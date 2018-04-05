@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Kobold-URefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"versionName",
+		"description",
+		"tag",
+		"url"
+	],
+	"name" : "AppVersion",
+	"type" : "normal"
+}

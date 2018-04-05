@@ -4,4 +4,5 @@ initialize
 	badsmells := OrderedCollection new.
 	token := UUID new asString.
 	finders := self allFinders.
-	self persistEvents: false
+	self persistEvents: false.
+	versions := OrderedCollection new.

@@ -11,7 +11,8 @@
 		"badsmells",
 		"finders",
 		"usabiltyEvents",
-		"persistEvents"
+		"persistEvents",
+		"versions"
 	],
 	"name" : "Client",
 	"type" : "normal"
