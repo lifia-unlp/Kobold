@@ -1,7 +1,7 @@
 instance creation
-newOn: aRefactoring for: aUsabilitySmell
+newOn: aRefactoring for: anUsabilitySmell
 
 	^(self new)
 		refactoring: aRefactoring;
-		smell: aUsabilitySmell;
+		smell: anUsabilitySmell;
 		yourself

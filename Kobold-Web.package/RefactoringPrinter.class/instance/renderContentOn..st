@@ -6,4 +6,6 @@ renderContentOn: html
 				ifTrue: [ self
 						renderRemoveButtonOn: html;
 						renderCodeButtonOn: html ]
-				ifFalse: [ self renderApplyButtonOn: html ] ]
+				ifFalse: [ 
+					self renderApplyButtonOn: html]
+			 ]

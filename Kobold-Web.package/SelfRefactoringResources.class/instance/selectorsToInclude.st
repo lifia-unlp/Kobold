@@ -1,4 +1,4 @@
 accessing
 selectorsToInclude
 
-	^#(faviconIco mainCss chartJs initJs)
+	^#(faviconIco mainCss chartJs initJs selectizeminJs selectizedefaultCss)

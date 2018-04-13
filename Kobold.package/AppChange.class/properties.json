@@ -6,12 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"versionName",
-		"description",
-		"tag",
-		"url",
-		"changes"
+		"smell",
+		"refactorings",
+		"version"
 	],
-	"name" : "AppVersion",
+	"name" : "AppChange",
 	"type" : "normal"
 }
