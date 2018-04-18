@@ -9,5 +9,5 @@ renderTargetVersions: html
 			html strong: 'Target Versions'.	
 		      (html textInput)
 				on: #targetVersions of: self;
-				id: 'target-versions'.				
+				class: 'target-versions'.				
 		].

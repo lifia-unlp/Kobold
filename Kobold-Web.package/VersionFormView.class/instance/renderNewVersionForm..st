@@ -13,14 +13,17 @@ renderNewVersionForm: html
 				with: [  
 					html text: 'Tag'.
 					html textInput tbsFormControl
+						id: 'version-tag';
 						value: self version tag;
-						callback: [ :value | self version tag: value ]
+						callback: [ :value | self version tag: value ];
+						onBlur: (self updateUrlScript)
 				].
 			html tbsColumn
 				mediumSize: 6;
 				with: [ 
 					html text: 'URL'.
 					html textInput tbsFormControl
+						id: 'version-url';
 						value: self version url;
 						readonly: true. 	 
 				].

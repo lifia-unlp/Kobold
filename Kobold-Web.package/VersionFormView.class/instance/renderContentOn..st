@@ -5,6 +5,6 @@ renderContentOn: html
 		with: 'New Version'.
 	html tbsRow: [ 
 		html tbsColumn
-			mediumSize: 4;
+			mediumSize: 6;
 			with: [self renderNewVersionForm: html  ].
 	]

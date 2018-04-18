@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"smell",
-		"refactorings",
-		"version"
+		"refactorings"
 	],
 	"name" : "AppChange",
 	"type" : "normal"
