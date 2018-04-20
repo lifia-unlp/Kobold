@@ -35,10 +35,8 @@ renderNewVersionForm: html
 				callback: [ :value | self version description: value ].
 		].
 		html tbsFormGroup: [ 
-			html tbsButton 
-				value: 'Save';
-				bePrimary;
-				callback: [ (self saveVersion) ifTrue: [ self answer: true ]]
+			html tbsColumn: [ self renderCancelButton: html ] mediumSize: 2.
+			html tbsColumn: [ self renderSubmitButton: html ] mediumSize: 2.
 		].	
 			
 	]

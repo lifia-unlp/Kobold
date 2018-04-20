@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"version"
+	],
 	"name" : "RefactoringsManager",
 	"type" : "normal"
 }

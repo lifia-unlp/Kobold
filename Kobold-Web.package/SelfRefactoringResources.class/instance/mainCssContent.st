@@ -26,11 +26,6 @@ mainCssContent
     background-image:linear-gradient(to bottom,#70A437 0,#419641 100%);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=''#ff70A437'', endColorstr=''#ff419641'', GradientType=0);
 }
-
-.version-tag {
-	color: #70A437;
-	font-weight: bold;
-}
 		
 @font-face {
     font-family: ''jesterday_demoregular'';
@@ -97,4 +92,24 @@ mainCssContent
 	.us-group a{cursor:pointer}
 	.svg-bg{width:64px;height:64px; padding:16px; background-color:#eee}
 	.us-modal{width:700px}
+
+.version-tag {
+	color: #70A437;
+	font-weight: bold;
+}
+
+.version-control {
+	cursor: pointer;
+	margin: 8px;
+}
+
+.version-list {
+	margin: 15px;
+}
+
+.list-group-item .tag-badge {
+	float: none;
+}
+
+
 '

@@ -11,12 +11,16 @@ renderContentOn: html
 			with:  [
 				html anchor
 			           callback: [self call: VersionFormView new ];
-			           with: 'New Version'.
+			           with: [
+						html tbsGlyphIcon iconPlus.
+						html space.
+						html text: 'New Version'].
 		 	]  
 	]. 
 		
-	
-	html tbsRow: [ 
+	html tbsRow
+		class: 'version-list';
+		with: [ 
 		html tbsColumn
 			mediumSize: 6;
 			with: [ 

@@ -6,7 +6,8 @@ applyRefactoring
 	
 	anAppChange:= AppChange smell: self smell refactoring: self refactoring.
 	
-	self client versions select: [ :version | versionNames includes: (version versionName) ] thenDo: [ :version | version addChange: anAppChange ].
+	self client versions select: [ :version | (versionNames includes: (version versionName)) and: [ (version hasRefactoringApplied: self refactoring on: self smell) not  ] ] 
+	thenDo: [ :version | version addChange: anAppChange ].
 	
 	self smell applyRefactoring: self refactoring. 
 	self client save.

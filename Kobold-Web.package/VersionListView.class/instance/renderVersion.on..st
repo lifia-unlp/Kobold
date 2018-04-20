@@ -2,22 +2,17 @@ rendering
 renderVersion: anAppVersion on: html
 
 	html div 
-		class: 'list-group-item';
-		
+		class: 'list-group-item';	
 		with: [ 
-			html span with: anAppVersion versionName.
-					(anAppVersion canBeEdited) ifTrue: [ 
-						 
-					html anchor  
-						style: 'cursor:pointer';
-						class: 'pull-right';
-						callback: [ self removeVersion: anAppVersion ];
-						with: [ html tbsGlyphIcon iconRemove ].
-					html anchor  
-						style: 'cursor:pointer';
-						class: 'pull-right';
-						callback: [ self editVersion: anAppVersion ];
-						with: [html tbsGlyphIcon iconPencil].
-					]					   
+			html anchor
+				callback: [ self call: (RefactoringsManager version: anAppVersion) ]; 
+				with: (anAppVersion versionName).
+			html space.
+			html tbsBadge
+				class: 'tag-badge';
+				with: (anAppVersion tag).
+					(anAppVersion canBeEdited) ifTrue: [
+						self renderRemoveButton: html version: anAppVersion.  						 
+						self renderEditButton: html version: anAppVersion.]					   
 			 ]
 	
