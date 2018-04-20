@@ -1,13 +1,11 @@
 rendering
 renderTargetVersions: html
+	html paragraph: [ 
+		html strong: 'Versions: '.
+		html span
+			class: 'version-tag'; 
+			with: ($, join: self versionsWithRefactoring) .
+	]
+		
+		
 	
-	html script: self initializeTagLibrary.
-	
-	html div 
-		class: 'form-group';
-		with: [
-			html strong: 'Target Versions'.	
-		      (html textInput)
-				on: #targetVersions of: self;
-				class: 'target-versions'.				
-		].

@@ -38,7 +38,7 @@ renderNewVersionForm: html
 			html tbsButton 
 				value: 'Save';
 				bePrimary;
-				callback: [ self saveVersion. self answer: true ]
+				callback: [ (self saveVersion) ifTrue: [ self answer: true ]]
 		].	
 			
 	]

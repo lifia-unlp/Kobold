@@ -6,6 +6,8 @@ renderVersion: anAppVersion on: html
 		
 		with: [ 
 			html span with: anAppVersion versionName.
+					(anAppVersion canBeEdited) ifTrue: [ 
+						 
 					html anchor  
 						style: 'cursor:pointer';
 						class: 'pull-right';
@@ -15,6 +17,7 @@ renderVersion: anAppVersion on: html
 						style: 'cursor:pointer';
 						class: 'pull-right';
 						callback: [ self editVersion: anAppVersion ];
-						with: [html tbsGlyphIcon iconPencil].					   
+						with: [html tbsGlyphIcon iconPencil].
+					]					   
 			 ]
 	

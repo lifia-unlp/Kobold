@@ -1,3 +1,5 @@
 removing
 removeVersion: anAppVersion
-	self versions remove: anAppVersion.
+	anAppVersion canBeEdited ifTrue: [ 
+		self versions remove: anAppVersion]
+	

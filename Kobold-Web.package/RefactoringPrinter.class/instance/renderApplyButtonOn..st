@@ -2,11 +2,11 @@ rendering
 renderApplyButtonOn: html
 	html
 		form: [ self renderParameterFieldsOn: html.
-			self renderTargetVersions: html. 
+			self renderTargetVersionsWidget: html. 
 			html tbsButton
 				beSubmit;
 				beSuccess;
-				callback: [ self applyRefactoring: self refactoring ];
+				callback: [ self applyRefactoring ];
 				with: [ html tbsGlyphIcon iconCheck.
 					html
 						space;

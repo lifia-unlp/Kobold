@@ -1,7 +1,6 @@
 uploaded
 mainCssContent
-
-	^'
+	^ '
 	.mainContainer{min-height:400px}
 	
 	a {color: #70A437;}
@@ -27,10 +26,12 @@ mainCssContent
     background-image:linear-gradient(to bottom,#70A437 0,#419641 100%);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=''#ff70A437'', endColorstr=''#ff419641'', GradientType=0);
 }
-	
-	
-	
-	
+
+.version-tag {
+	color: #70A437;
+	font-weight: bold;
+}
+		
 @font-face {
     font-family: ''jesterday_demoregular'';
     src: url(''jesterdaydemo-webfont.woff2'') format(''woff2''),

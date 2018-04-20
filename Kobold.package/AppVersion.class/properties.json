@@ -10,7 +10,8 @@
 		"description",
 		"tag",
 		"url",
-		"changes"
+		"changes",
+		"canBeEdited"
 	],
 	"name" : "AppVersion",
 	"type" : "normal"

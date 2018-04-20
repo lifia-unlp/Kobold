@@ -11,4 +11,4 @@ refactoringsScript
 		do: [ :ex | self respondInvalidTokenError ].
 	
 	version := client versionTagged: (parameters at: 'version').
-	version ifNil: [ self respond: client refactoringsScript  ] ifNotNil: [ self respond: version refactoringsScript ].	
+	version ifNil: [ self respond: client defaultVersion refactoringsScript  ] ifNotNil: [ self respond: version refactoringsScript ].	
