@@ -19,4 +19,3 @@ renderBadSmellsList: html
 				mediumSize: 6;
 				class: 'us-group';
 				with: [ self client badSmells lastHalf do: [ :badSmell | html render: badSmell printer ] ] ].
-	self usDetailsModal: html

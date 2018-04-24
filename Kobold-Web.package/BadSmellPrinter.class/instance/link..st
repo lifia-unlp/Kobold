@@ -1,14 +1,11 @@
-rendering
+accessing
 link: html
 	html div
 		class: 'media';
 		with: [ 
 					html div
 						class: 'media-left';
-						with: [ 
-									(html tbsModalSwitch: 'us-detail')
-										onClick: (self modalLoaderScript: html);
-										with: [ self icon: html ] ].
+						with: [ self icon: html  ].
 					html div
 						class: 'media-body';
 						with: [ 
@@ -16,8 +13,8 @@ link: html
 										level: 5;
 										class: 'media-heading';
 										with: [ 
-													(html tbsModalSwitch: 'us-detail')
-														onClick: (self modalLoaderScript: html);
+													(html anchor)
+														callback: [ self showBadSmellInfo ];
 														with: [ self listName: html ].
 													html space.
 													self tooltip: html ].

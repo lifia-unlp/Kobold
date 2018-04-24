@@ -1,15 +1,14 @@
 rendering
 renderTargetVersionsTags: html
 	 
-	^ (self client versionsWithRefactoring: self refactoring on: self smell) 
+	^ (self client versionsWithRefactoring: self refactoring) 
 	do: [:version | 
 		html tbsBadge class: 'tag-badge'; 
-		with: (version tag). 
-		html anchor 
-			callback: [ 
-				version removeRefactoring: self refactoring on: self smell. 
-				self client save 
-			];
-			with: [ html tbsGlyphIcon iconTrash  ].
+		with: [
+			html text: version tag. 
+			html space. 
+			html anchor 
+				callback: [ self removeRefactoringFrom: version];
+				with: [ html tbsGlyphIcon iconRemove  ]].
 		html space.
 	]

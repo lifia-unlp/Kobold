@@ -8,14 +8,18 @@ renderContentOn: html
 	html
 		tbsRow: [ 
 			html tbsColumn
-				mediumSize: 6;
+				mediumSize: 5;
 				class: 'us-group';
 				with: [ 
 							self version changes firstHalf
-								do: [ :change | html render: (RefactoringPrinter on: change refactorings first for: change smell) ] ].
+								do: [ :change | html render: (EditRefactoringView on: change refactorings first for: change smell in: self version) ] ].
 			html tbsColumn
-				mediumSize: 6;
+				mediumSize: 5;
 				class: 'us-group';
 				with: [ 
 							self version changes lastHalf
-								do: [ :change | html render: (RefactoringPrinter on: change refactorings first for: change smell) ] ] ]
+								do: [ :change | html render: (EditRefactoringView on: change refactorings first for: change smell in: self version) ] ] ].
+						
+	self usDetailsModal: html.
+						
+		

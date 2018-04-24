@@ -1,13 +1,10 @@
 rendering
 renderApplyButtonOn: html
-	html
-		form: [ self renderParameterFieldsOn: html.
-			self renderTargetVersionsWidget: html. 
-			html tbsButton
+	html tbsButton
 				beSubmit;
 				beSuccess;
 				callback: [ self applyRefactoring ];
 				with: [ html tbsGlyphIcon iconCheck.
 					html
 						space;
-						text: 'Apply now' ] ]
+						text: 'Apply now' ] 
