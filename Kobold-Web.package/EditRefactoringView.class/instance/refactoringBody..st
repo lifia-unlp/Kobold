@@ -5,5 +5,5 @@ refactoringBody: html
 	html
 		tbsForm: [ 
 			html tbsFormGroup: [printer renderParameterFieldsOn: html].
-			html tbsFormGroup: [ self renderCodeButtonOn: html ].
+			html tbsFormGroup: [ printer renderCodeButtonOn: html ].
 			html tbsFormGroup: [ self renderButtonsOn: html ] ]
