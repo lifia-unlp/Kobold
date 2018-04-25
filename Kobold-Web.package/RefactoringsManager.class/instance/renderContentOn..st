@@ -12,13 +12,14 @@ renderContentOn: html
 				class: 'us-group';
 				with: [ 
 							self version changes firstHalf
-								do: [ :change | html render: (EditRefactoringView on: change refactorings first for: change smell in: self version) ] ].
+								do: [ :change | self renderRefactoringsFor: change on: html  ] ].
 			html tbsColumn
 				mediumSize: 5;
+				mediumOffset: 2;
 				class: 'us-group';
 				with: [ 
 							self version changes lastHalf
-								do: [ :change | html render: (EditRefactoringView on: change refactorings first for: change smell in: self version) ] ] ].
+								do: [ :change | self renderRefactoringsFor: change on: html  ] ] ].
 						
 	self usDetailsModal: html.
 						
