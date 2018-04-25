@@ -111,5 +111,18 @@ mainCssContent
 	float: none;
 }
 
+a.tag-link {
+	color: white;
+	cursor: pointer;
+}
 
+.selectize-control.multi .selectize-input [data-value] { 
+	background-image: none;
+	background-repeat: none;
+	background-color: #777;
+	border: #3e8f3e;
+	border-radius: 10px;
+	font-size: 12px;
+    	font-weight: 700;
+ }
 '

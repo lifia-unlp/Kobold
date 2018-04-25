@@ -8,6 +8,7 @@ renderTargetVersionsTags: html
 			html text: version tag. 
 			html space. 
 			html anchor
+				class: 'tag-link';	
 				onClick: (self removeVersionScript: html version: version); 
 				with: [ html tbsGlyphIcon iconRemove  ]].
 		html space.
