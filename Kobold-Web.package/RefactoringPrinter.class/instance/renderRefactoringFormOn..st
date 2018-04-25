@@ -7,7 +7,9 @@ renderRefactoringFormOn: html
 				self renderTargetVersionsWidget: html. 
 				self renderApplyButtonOn: html] 
 			ifFalse: [ 
-				html tbsFormGroup: [self renderTargetVersionsTags: html].
+				html tbsFormGroup
+					id: ('tags-', self refactoring refactoringId);
+					with:  [self renderTargetVersionsTags: html].
 				self renderCodeButtonOn: html ]
 			
 			]
