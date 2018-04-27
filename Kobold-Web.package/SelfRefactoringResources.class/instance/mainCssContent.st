@@ -103,7 +103,7 @@ mainCssContent
 	margin: 8px;
 }
 
-.version-list {
+#version-list {
 	margin: 15px;
 }
 
@@ -125,4 +125,6 @@ a.tag-link {
 	font-size: 12px;
     	font-weight: 700;
  }
+
+
 '

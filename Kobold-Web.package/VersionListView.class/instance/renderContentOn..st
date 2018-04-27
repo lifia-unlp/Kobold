@@ -17,14 +17,14 @@ renderContentOn: html
 						html text: 'New Version'].
 		 	]  
 	]. 
-		
+
 	html tbsRow
-		class: 'version-list';
-		with: [ 
-		html tbsColumn
-			mediumSize: 6;
-			with: [ 
-				self user client versions do: [ :version | self renderVersion: version on: html ]
-			].
-		 ]
+		id: 'version-list';
+		with: [ self renderVersionList: html ].
+	
+	html tbsModal
+		id: 'remove-modal';
+		with: [  html div id: #modalInner  ].
+	
+	
 	
