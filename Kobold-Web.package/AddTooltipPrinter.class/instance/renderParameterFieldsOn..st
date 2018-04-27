@@ -1,6 +1,6 @@
 rendering
 renderParameterFieldsOn: html
-	html text: 'Tooltip text'.	
+	html strong: 'Tooltip text'.	
 	(html textInput on: #text of: self refactoring) 
 		tbsFormControl;
 		placeholder: 'Tooltip text';

@@ -1,3 +1,7 @@
 rendering
 renderParameterFieldsOn: html
-	html textInput on: #urlString of: self refactoring
+	html strong: 'URI'.
+	html textInput 
+		tbsFormControl;
+		on: #urlString of: self refactoring;
+		readonly: (self editable not)
