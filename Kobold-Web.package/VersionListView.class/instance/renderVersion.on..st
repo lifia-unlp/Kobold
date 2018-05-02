@@ -5,8 +5,10 @@ renderVersion: anAppVersion on: html
 		class: 'list-group-item';	
 		with: [ 
 			html anchor
+				tbsTooltip: (anAppVersion description) direction: #bottom;
 				callback: [ self call: (RefactoringsManager version: anAppVersion) ]; 
 				with: (anAppVersion versionName).
+				
 			html space.
 			html tbsBadge
 				class: 'tag-badge';
