@@ -2,4 +2,6 @@ convenience
 prepareForDevelopment
 	<script>
 	ZnZincServerAdaptor startOn: 8080.
-	self new setupMongoDatabase
+	self new 
+		setupMongoDatabase;
+		migrateToLastVersion.
