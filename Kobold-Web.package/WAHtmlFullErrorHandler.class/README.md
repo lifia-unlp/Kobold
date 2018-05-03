@@ -1,0 +1,1 @@
+I show the full error stack as HTML, as opposed as just the description
