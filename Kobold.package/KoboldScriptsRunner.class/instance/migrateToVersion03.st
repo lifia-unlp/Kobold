@@ -7,6 +7,6 @@ production:= AppVersion name: 'production' tag: 'prod'  description: 'default ve
 
 ApplicationManager instance users do: [ :user | 
 	user client versions: (OrderedCollection with: (production clone) ). 
-	user client badSmells do: [ :smell | smell refactorings do: [ :ref | user client addRefactoring: ref to: smell ] ].
+	user client badSmells do: [ :smell | smell refactorings do: [ :ref | user client defaultVersion addRefactoring: ref to: smell. ref save ] ].
 	
 	user client save].

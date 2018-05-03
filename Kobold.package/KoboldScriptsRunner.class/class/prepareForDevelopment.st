@@ -4,4 +4,5 @@ prepareForDevelopment
 	ZnZincServerAdaptor startOn: 8080.
 	self new 
 		setupMongoDatabase;
+		resetMongoDatabase;
 		migrateToLastVersion.
