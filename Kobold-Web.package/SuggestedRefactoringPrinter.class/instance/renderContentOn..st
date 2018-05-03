@@ -1,4 +1,6 @@
 rendering
 renderContentOn: html
-	html
-		div: [ self renderDescriptionOn: html ]
+	
+	html div
+		class: #well;
+		with: [ self renderDescriptionOn: html ]
