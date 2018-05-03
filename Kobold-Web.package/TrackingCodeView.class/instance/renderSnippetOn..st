@@ -16,6 +16,7 @@ renderSnippetOn: html
 		xpathInstance = new XpathProcessor();
 		logger = new Logger("http://autorefactoring.lifia.info.unlp.edu.ar", true);
 		logger.loadUsabilityEventsLoggers();
+		logger.updateActiveVersion();
 		logger.loadRefactorings();
 	});
 </script>' ] ]
