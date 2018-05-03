@@ -1,8 +1,4 @@
 removing
 removeRefactoringFrom: aVersion
-	aVersion removeRefactoring: self refactoring on: self smell. 				
-	
-	"if refactoring was removed from all versions, removes it from the smell collection"
-	(self client versionsWithRefactoring: self refactoring) isEmpty 
-		ifTrue: [ self smell removeRefactoring: self refactoring].
+	self client removeRefactoring: self refactoring  on: self smell version: aVersion.
 	self client save. 
