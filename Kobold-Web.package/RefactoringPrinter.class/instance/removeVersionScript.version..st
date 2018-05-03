@@ -7,7 +7,7 @@ removeVersionScript: html version: aVersion
 	^ (html jQuery ajax) 
 		script: [ :s |  
 			self removeRefactoringFrom: aVersion. 
-			s << (s jQuery id: ('tags-', self refactoring refactoringId ) ) html: [ :r | self renderTargetVersionsTags: r ].
+			s << (s jQuery id: ('tags-', self refactoring hash asString) ) html: [ :r | self renderTargetVersionsTags: r ].
 		      
 			"re-render recommended refactorings to update availables versions of this refactoring"
 			s <<  (s jQuery id: 'recommended-refactorings') html: [ :r | badSmellComponent renderRecommendedRefactorings: r].

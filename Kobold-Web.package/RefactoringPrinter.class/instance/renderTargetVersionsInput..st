@@ -1,5 +1,5 @@
 rendering
-renderTargetVersionsWidget: html
+renderTargetVersionsInput: html
 	
 	html div 
 		class: 'form-group';
@@ -7,6 +7,6 @@ renderTargetVersionsWidget: html
 			html strong: 'Target Versions'.	
 		      (html textInput)
 				on: #targetVersions of: self;
-				id: self refactoring refactoringId.				
+				id: self refactoring hash asString.				
 		].
 	self tagsScriptFor: self refactoring on: html.

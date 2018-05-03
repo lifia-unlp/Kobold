@@ -1,4 +1,4 @@
 rendering
 tagsScriptFor: aRefactoring on: html
 	
-	html script: ('$("#', aRefactoring refactoringId,'").selectize(parameters);' ).
+	html script: ('$("#', aRefactoring hash asString,'").selectize(parameters);' ).
