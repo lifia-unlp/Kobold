@@ -10,8 +10,6 @@ renderSnippetOn: html
 						break;
 						code: '<script type=text/javascript type="text/javascript" src="https://selfrefactoring.s3.amazonaws.com/resources/logger.js"></script>';
 						break;
-						code: '<script type=text/javascript type="text/javascript" src="https://selfrefactoring.s3.amazonaws.com/resources/URI.js"></script>';
-						break;
 						code:
 							'<script type="text/javascript" charset="utf-8">
 	$(function() {
