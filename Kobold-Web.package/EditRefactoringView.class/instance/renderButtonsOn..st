@@ -1,6 +1,7 @@
 rendering
 renderButtonsOn: html
 	html tbsButton
+		class: 'kobold-btn';
 		beSuccess;
 		beSubmit;
 		callback: [ self editRefactoring ];
@@ -9,6 +10,7 @@ renderButtonsOn: html
 				space;
 				text: 'Save' ].
 	html tbsButton
+		class: 'kobold-btn';
 		beDefault;
 		callback: [ self removeRefactoring ];
 		with: [ html tbsGlyphIcon iconRemove.

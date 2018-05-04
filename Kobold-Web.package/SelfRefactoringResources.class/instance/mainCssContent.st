@@ -126,5 +126,8 @@ a.tag-link {
     	font-weight: 700;
  }
 
+.kobold-btn { 
+	margin: 0px 5px;
+ }
 
 '
