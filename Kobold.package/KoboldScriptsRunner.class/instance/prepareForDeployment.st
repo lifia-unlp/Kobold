@@ -6,4 +6,5 @@ prepareForDeployment
 		unregisterDevelopmentApplications;
 		setupServer;
 		setupMongoDatabase;
-		migrateToLastVersion.
+		uploadFileLibraryToS3;
+		migrateToLastVersion

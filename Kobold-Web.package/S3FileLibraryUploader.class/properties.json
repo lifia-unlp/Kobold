@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "JulianGrigera 3/1/2017 00:18",
+	"super" : "Object",
+	"category" : "Kobold-Web-Libraries",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bucketName",
+		"folderName",
+		"awsClient"
+	],
+	"name" : "S3FileLibraryUploader",
+	"type" : "normal"
+}

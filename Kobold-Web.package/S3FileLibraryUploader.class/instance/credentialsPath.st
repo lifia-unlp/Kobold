@@ -1,0 +1,3 @@
+initialization
+credentialsPath
+	^ 'aws.txt'

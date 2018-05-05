@@ -7,7 +7,8 @@ baseline: spec
 				seaside: spec;
 				bootstrap: spec;
 				xmlParserHTML: spec;
-				voyage: spec.
+				voyage: spec;
+				zincAWS: spec.
 			spec
 				package: 'Kobold' with: [ spec requires: #('XMLParserHTML') ];
 				package: 'Kobold-Web'
