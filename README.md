@@ -10,8 +10,8 @@ Kobold scans your web app's real users' activity to search for usability smells.
 
 ## Research
 Kobold was developed at LIFIA (UNLP, Argentina) research labs. Read more about it:
-- [The Paper](http://www.sciencedirect.com/science/article/pii/S1071581916301215)
-- [ResearchGate](https://www.researchgate.net/publication/308343984_Automatic_Detection_of_Usability_Smells_in_Web_Applications)
+- [Kobold: Web usability as a service](https://ieeexplore.ieee.org/document/8115717/)
+- [Automatic detection of usability smells in web applications](http://www.sciencedirect.com/science/article/pii/S1071581916301215)
 
 ## Screencast
 Check the video to see how it works
@@ -19,15 +19,12 @@ Check the video to see how it works
 [![Kobold Screencast](https://s3.amazonaws.com/selfrefactoring/screencasts/preview.png)](https://youtu.be/c-myYPMUh0Q)
 
 
-## Installation
+## Installation (Requires MongoDB)
 ```smalltalk
 Metacello new
 	baseline: 'Kobold';
 	repository: 'github://juliangrigera/Kobold';
 	load.
 ```
-(Ignore the warning and proceed, it loads fine, I'm working on a Baseline fix...)
-
-Requires MongoDB
 
 After the code's loaded, point your browser to http://localhost:8080/Home
