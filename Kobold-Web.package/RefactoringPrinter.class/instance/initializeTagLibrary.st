@@ -1,4 +1,4 @@
-rendering
+scripting
 initializeTagLibrary
 	^ String streamContents:  [ :stream |
 		stream << 'var parameters = {persist: false,valueField: ''name'', labelField: ''tag'', 
