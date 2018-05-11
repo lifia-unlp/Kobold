@@ -8,7 +8,8 @@
 	"instvars" : [
 		"temporaryUser",
 		"clientName",
-		"repassword"
+		"repassword",
+		"url"
 	],
 	"name" : "RegisterView",
 	"type" : "normal"

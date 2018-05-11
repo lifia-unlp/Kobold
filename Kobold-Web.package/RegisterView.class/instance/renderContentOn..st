@@ -32,6 +32,13 @@ renderContentOn: html
 				type: 'password';
 				callback: [ :value | self saveRePassword: value ].
 			html break.
+			html tbsFormGroup: [ 
+				html text: 'App URL'.
+				html textInput
+					placeholder: 'http://my-app.com';
+					tbsFormControl;
+					on: #url of: self.
+				 ].
 			html tbsButton
 				value: 'Register';
 				callback: [ self register ];
