@@ -12,7 +12,8 @@
 		"finders",
 		"usabiltyEvents",
 		"persistEvents",
-		"versions"
+		"versions",
+		"url"
 	],
 	"name" : "Client",
 	"type" : "normal"

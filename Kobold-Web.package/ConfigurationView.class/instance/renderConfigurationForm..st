@@ -1,10 +1,8 @@
 rendering
 renderConfigurationForm: html
 	html
-		tbsForm: [ 
-			html
-				tbsFormGroup: [ 
-					html text: 'Client name: '.
+		tbsForm: [ html
+				tbsFormGroup: [ html text: 'Client name: '.
 					html textInput tbsFormControl
 						value: self client name;
 						callback: [ :value | self client name: value ].
@@ -12,7 +10,11 @@ renderConfigurationForm: html
 					html textInput tbsFormControl
 						value: self user email;
 						callback: [ :value | self changeEmail: value ].
-					html heading
+					html text: 'App URL'.
+					html textInput tbsFormControl
+						on: #url of: self client;
+						placeholder: 'http://my-app.com' ];
+				tbsFormGroup: [ html heading
 						level: 4;
 						with: 'Change Password'.
 					html text: 'Old Password: '.

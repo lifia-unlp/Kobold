@@ -6,5 +6,6 @@ saveVersion
 		^false].
 	
 	(self action = #new) ifTrue: [ self client addVersion: version ].
+	self version url: self getVersionURL. 
 	self client save.
 	^true

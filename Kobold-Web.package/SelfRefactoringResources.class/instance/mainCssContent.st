@@ -130,4 +130,8 @@ a.tag-link {
 	margin: 0px 5px;
  }
 
+#version-url { 
+	display: block;
+ }
+
 '
