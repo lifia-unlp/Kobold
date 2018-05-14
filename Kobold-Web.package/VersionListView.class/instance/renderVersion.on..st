@@ -11,7 +11,7 @@ renderVersion: anAppVersion on: html
 				class: 'tag-badge';
 				with: anAppVersion tag.
 			html anchor
-				url: anAppVersion url;
+				url: (self getVersionUrl: anAppVersion);
 				target: 'blank';
 				with: [ html tbsGlyphIcon
 						class: 'version-control';

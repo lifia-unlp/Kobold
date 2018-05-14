@@ -1,4 +1,3 @@
 accessing
 generateUrl: baseUrl
-	
-	url:= baseUrl, '?version=', self tag.
+	baseUrl isEmpty ifTrue: [ url:='' ] ifFalse: [ url:= baseUrl, '?version=', self tag ]. 
