@@ -134,4 +134,8 @@ a.tag-link {
 	display: block;
  }
 
+#show-version-row { 
+	margin-bottom: 25px;
+ }
+
 '
