@@ -4,16 +4,7 @@ renderContentOn: html
 		level: 3;
 		with: 'Active Usability Refactorings'.
 	self renderBreadcrumbOn: html.
-	html tbsRow
-		id: 'show-version-row';
-		with: [ html
-				tbsColumn: [ html anchor
-						class: 'btn';
-						class: 'btn-primary';
-						url: self version url;
-						target: 'blank';
-						with: 'Show Version' ]
-				mediumSize: 6 ].
+	self renderShowVersionButtonOn: html.
 	html
 		tbsRow: [ html tbsColumn
 				mediumSize: 5;
