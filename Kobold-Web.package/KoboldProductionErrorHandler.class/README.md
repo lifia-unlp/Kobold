@@ -1,0 +1,1 @@
+I send by email the full error stack.

@@ -4,6 +4,7 @@ initialize
 
 	| application |
 	super initialize.
+	self halt.
 	application := WAAdmin register: self asApplicationAt: #Home.
 	application
 		exceptionHandler: WADebugErrorHandler;

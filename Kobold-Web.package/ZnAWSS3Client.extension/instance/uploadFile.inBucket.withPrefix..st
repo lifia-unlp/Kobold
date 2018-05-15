@@ -11,4 +11,4 @@ uploadFile: aFileName inBucket: bucketName withPrefix: prefixString
 	self
 		at: bucketName -> (prefixString , '/' , entry basename)
 		put: (ZnEntity with: entry rawContents type: mimeType).
-	^ self httpClient response
+	^ self httpClient response 

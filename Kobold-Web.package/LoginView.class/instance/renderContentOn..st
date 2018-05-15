@@ -1,6 +1,5 @@
 rendering
 renderContentOn: html
-
 	html tbsForm with: 
 			[self renderUsernameField: html.
 			self renderPasswordField: html.
