@@ -10,7 +10,7 @@ renderConfigurationForm: html
 					html textInput tbsFormControl
 						value: self user email;
 						callback: [ :value | self changeEmail: value ].
-					html text: 'App URL'.
+					html text: 'Application URL'.
 					html textInput tbsFormControl
 						on: #url of: self client;
 						placeholder: 'http://my-app.com' ];
