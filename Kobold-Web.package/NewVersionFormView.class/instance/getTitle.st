@@ -1,0 +1,3 @@
+accessing
+getTitle
+	^ 'New Version'

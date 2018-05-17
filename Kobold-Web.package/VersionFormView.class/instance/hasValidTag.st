@@ -1,3 +1,3 @@
-rendering
-getTitle
+validation
+hasValidTag
 	^ self subclassResponsibility

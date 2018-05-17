@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VersionFormView",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NewVersionFormView",
+	"type" : "normal"
+}

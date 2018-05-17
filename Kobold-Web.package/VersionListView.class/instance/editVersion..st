@@ -1,3 +1,3 @@
 editing
 editVersion: anAppVersion
-	self call: (VersionFormView version: anAppVersion action: #edit).
+	self call: (EditVersionFormView version: anAppVersion).

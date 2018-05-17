@@ -10,7 +10,7 @@ renderContentOn: html
 			mediumSize: 6;
 			with:  [
 				html anchor
-			           callback: [self call: VersionFormView new ];
+			           callback: [self call: NewVersionFormView new ];
 			           with: [
 						html tbsGlyphIcon iconPlus.
 						html space.
