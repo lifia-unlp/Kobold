@@ -7,4 +7,5 @@ prepareForDeployment
 		setupServer;
 		setupMongoDatabase;
 		uploadFileLibraryToS3;
+		setDeploymentResourceBaseUrl;
 		migrateToLastVersion
