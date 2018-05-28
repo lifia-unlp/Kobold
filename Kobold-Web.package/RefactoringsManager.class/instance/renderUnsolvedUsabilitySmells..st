@@ -7,8 +7,8 @@ renderUnsolvedUsabilitySmells: html
 				level: 4;
 				with: 'Unsolved Usability Smells'.
 			html
-				tbsColumn: [ unsolvedSmells firstHalf do: [ :smell | html render: smell printer ] ]
+				tbsColumn: [ unsolvedSmells firstHalf do: [ :smell | html render: (smell printerFor: self version) ] ]
 				mediumSize: 6.
 			html
-				tbsColumn: [ unsolvedSmells lastHalf do: [ :smell | html render: smell printer ] ]
+				tbsColumn: [ unsolvedSmells lastHalf do: [ :smell | html render: (smell printerFor: self version) ] ]
 				mediumSize: 6 ]

@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"badSmell"
+		"badSmell",
+		"version"
 	],
 	"name" : "BadSmellPrinter",
 	"type" : "normal"

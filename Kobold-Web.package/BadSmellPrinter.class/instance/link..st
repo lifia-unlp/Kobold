@@ -12,12 +12,7 @@ link: html
 									html heading
 										level: 5;
 										class: 'media-heading';
-										with: [ 
-													(html anchor)
-														callback: [ self showBadSmellInfo ];
-														with: [ self listName: html ].
-													html space.
-													self tooltip: html ].
+										with: [ self renderBadSmellLink: html].
 									self listDetails: html.
 									html
 										paragraph: [ 
