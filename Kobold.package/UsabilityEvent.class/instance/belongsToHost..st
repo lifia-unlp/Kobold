@@ -1,0 +1,3 @@
+testing
+belongsToHost: aString
+	^ false
