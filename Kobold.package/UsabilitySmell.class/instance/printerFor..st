@@ -1,4 +1,5 @@
 printing
 printerFor: aVersion 
-
-	^self printerClass on: self for: aVersion
+	^ self printerClass on: self for: aVersion.
+	
+		
