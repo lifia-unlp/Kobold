@@ -20,7 +20,7 @@ renderContentOn: html
 
 	html tbsRow
 		id: 'version-list';
-		with: [ self renderVersionList: html ].
+		with: [ self renderVersionListOn: html ].
 	
 	html tbsModal
 		id: 'remove-modal';
