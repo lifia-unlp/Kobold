@@ -1,5 +1,5 @@
 rendering
-renderButtonsOn: html
+renderModalButtonsOn: html
 	html tbsButton
 		class: 'kobold-btn';
 		beSuccess;
