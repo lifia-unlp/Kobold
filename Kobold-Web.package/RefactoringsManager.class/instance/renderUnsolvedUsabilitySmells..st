@@ -9,11 +9,11 @@ renderUnsolvedUsabilitySmells: html
 			unsolvedSmells ifEmpty: [ html paragraph: 'No unsolved Usability Smells' ].
 			html tbsColumn
 				class: 'us-group';
+				mediumSize: 6;
 				with:
-						[ unsolvedSmells firstHalf do: [ :smell | html render: (smell printerFor: self version) ] ];
-				mediumSize: 6.
+						[ unsolvedSmells firstHalf do: [ :smell | html render: (smell printerFor: self version) ] ].
 			html tbsColumn
 				class: 'us-group';
+				mediumSize: 6;
 				with:
-						[ unsolvedSmells lastHalf do: [ :smell | html render: (smell printerFor: self version) ] ];
-				mediumSize: 6 ]
+						[ unsolvedSmells lastHalf do: [ :smell | html render: (smell printerFor: self version) ] ] ]
