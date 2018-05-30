@@ -3,7 +3,7 @@ renderAppliedRefactorings: html
 	html
 		tbsRow: [ html heading
 				level: 4;
-				with: 'Usability Refactorings'.
+				with: 'Applied Usability Refactorings'.
 			html tbsColumn
 				mediumSize: 6;
 				class: 'us-group';
