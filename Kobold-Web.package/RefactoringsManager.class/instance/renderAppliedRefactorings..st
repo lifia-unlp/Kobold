@@ -7,7 +7,8 @@ renderAppliedRefactorings: html
 			html tbsColumn
 				mediumSize: 6;
 				class: 'us-group';
-				with: [ self version changes firstHalf
+				with: [ self version changes ifEmpty: [ html paragraph: 'No refactorings applied.' ].
+					self version changes firstHalf
 						do: [ :change | self renderRefactoringsFor: change on: html ] ].
 			html tbsColumn
 				mediumSize: 6;
