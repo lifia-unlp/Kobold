@@ -1,6 +1,8 @@
 rendering
 renderEditButton: html version: anAppVersion
-	html anchor  						
-		class: 'pull-right';
+	html anchor
 		callback: [ self editVersion: anAppVersion ];
-		with: [html tbsGlyphIcon class: 'version-control'; iconPencil].
+		with: [ html tbsGlyphIcon iconPencil.
+			html
+				space;
+				text: 'Edit' ]
