@@ -2,7 +2,7 @@ uploaded
 mainCssContent
 	^ '
 	.mainContainer{min-height:400px}
-	
+	.breadcrumb{margin:20px 0}
 	a {color: #70A437;}
 	a:focus, a:hover {
     color: #5C7541;
