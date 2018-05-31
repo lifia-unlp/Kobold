@@ -1,0 +1,3 @@
+*Kobold-Web
+systemIconName
+	^ #wa
