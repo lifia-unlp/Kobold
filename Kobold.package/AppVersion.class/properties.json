@@ -11,7 +11,8 @@
 		"tag",
 		"url",
 		"changes",
-		"canBeEdited"
+		"canBeEdited",
+		"usabilityEvents"
 	],
 	"name" : "AppVersion",
 	"type" : "normal"

@@ -2,7 +2,7 @@ rest api
 receiveEvent
 	<post>
 	<path: '/'>
-	| eventClass newEvent parameters client application |
+	| eventClass newEvent parameters client application version |
 	FLSerializer serialize: self requestContext request toFileNamed: '/var/tmp/kobold/debug-request-', DateAndTime now asString,'.fuel'. 
 	parameters := self requestContext request fields.
 	application := ApplicationManager instance.
@@ -11,7 +11,9 @@ receiveEvent
 		on: InvalidToken
 		do: [ :ex | self respondInvalidTokenError ].
 	newEvent := eventClass fromGetParameters: parameters.
-	client
-		addEvent: newEvent;
-		save.
+	client addEvent: newEvent.
+	
+	version := client versionTagged: (parameters at: 'version') asSymbol.
+	version ifNil: [ client defaultVersion addEvent: newEvent ] ifNotNil: [ version addEvent: newEvent].
+	client save.
 	self respondOk
