@@ -1,3 +1,3 @@
 pagination
 lastPage
-	^ (self client events size / self eventsPerPage) ceiling
+	^ (self client defaultVersion events size / self eventsPerPage) ceiling
