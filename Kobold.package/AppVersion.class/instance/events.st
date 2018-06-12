@@ -1,3 +1,3 @@
 accessing
-usabilityEvents
+events
 	^ usabilityEvents

@@ -1,3 +1,3 @@
 accessing
-usabilityEvents: anObject
+events: anObject
 	usabilityEvents := anObject
