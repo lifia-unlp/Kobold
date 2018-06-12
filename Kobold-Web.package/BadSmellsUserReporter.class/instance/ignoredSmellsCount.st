@@ -1,3 +1,3 @@
 accessing
 ignoredSmellsCount
-	^ self client ignoredSmellsCount
+	^ self client defaultVersion ignoredSmellsCount

@@ -1,4 +1,4 @@
 controlling
 showIgnoredSmells
-	self client unignoreAllSmells.
+	self client defaultVersion unignoreAllSmells.
 	self recalculateBadSmells
