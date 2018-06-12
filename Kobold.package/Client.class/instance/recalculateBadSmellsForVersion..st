@@ -1,0 +1,3 @@
+bad smells
+recalculateBadSmellsForVersion: aVersion
+	aVersion recalculateBadSmells

@@ -1,5 +1,5 @@
 controlling
 recalculateBadSmells
 	self client
-		recalculateBadSmells;
+		recalculateBadSmellsForVersion: (self defaultVersion);
 		save

@@ -12,7 +12,9 @@
 		"url",
 		"changes",
 		"canBeEdited",
-		"usabilityEvents"
+		"usabilityEvents",
+		"finders",
+		"badSmells"
 	],
 	"name" : "AppVersion",
 	"type" : "normal"
