@@ -11,8 +11,6 @@ receiveEvent
 		on: InvalidToken
 		do: [ :ex | self respondInvalidTokenError ].
 	newEvent := eventClass fromGetParameters: parameters.
-	client addEvent: newEvent.
-	
 	version := client versionTagged: (parameters at: 'version') asSymbol.
 	version ifNil: [ client defaultVersion addEvent: newEvent ] ifNotNil: [ version addEvent: newEvent].
 	client save.
