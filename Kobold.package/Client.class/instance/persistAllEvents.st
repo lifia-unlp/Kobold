@@ -1,3 +1,3 @@
 persisting
 persistAllEvents
-	self persistAllEvents: self events
+	self persistAllEvents: self defaultVersion events
