@@ -1,3 +1,3 @@
 accessing
 badSmellsNotSolvedInVersion: aVersion
-	^ self badSmells reject: [ :badSmell | aVersion isSolved: badSmell ]
+	^ self defaultVersion badSmells reject: [ :badSmell | aVersion isSolved: badSmell ]
