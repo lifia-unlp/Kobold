@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "JuanCruzGardey 5/15/2018 09:27",
+	"commentStamp" : "",
 	"super" : "WAErrorHandler",
 	"category" : "Kobold-Web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "KoboldProductionErrorHandler",
+	"name" : "WAFileLogErrorHandler",
 	"type" : "normal"
 }
