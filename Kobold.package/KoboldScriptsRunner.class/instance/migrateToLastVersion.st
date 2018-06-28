@@ -1,15 +1,22 @@
 migrations
 migrateToLastVersion
 	"Always redefine this method to point to the last version"
-
 	ApplicationManager instance users
 		do: [ :u | 
-			u client defaultVersion
-				badSmells: u client badSmells;
-				finders: u client finders;
-				events: u client events.
+			u client versions
+				do: [ :v | 
+					v
+						badSmells: OrderedCollection new;
+						events: OrderedCollection new;
+						finders: OrderedCollection new.
+					v = u client defaultVersion
+						ifTrue: [ v badSmells addAll: u client badSmells.
+							v finders addAll: u client finders.
+							v events addAll: u client events ]
+						ifFalse: [ v finders: v allFinders ] ].
 			u client
 				badSmells: nil;
 				finders: nil;
-				events: nil].
-	ApplicationManager instance users do: [ :u | u client save ].	
+				events: nil.
+			u client save ]
+	"ApplicationManager instance users do: [ :u | u client save ]."
