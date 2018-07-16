@@ -3,7 +3,6 @@ receiveEvent
 	<post>
 	<path: '/'>
 	| eventClass newEvent parameters client application |
-	FLSerializer serialize: self requestContext request toFileNamed: '/var/tmp/kobold/debug-request-', DateAndTime now asString,'.fuel'. 
 	parameters := self requestContext request fields.
 	application := ApplicationManager instance.
 	eventClass := self class environment at: (parameters at: 'threat') asSymbol.
