@@ -2,4 +2,4 @@ seaside
 turnOffDebugging
 	self applicationNames
 		do:
-			[ :appName | (WAAdmin defaultDispatcher handlerAt: appName) exceptionHandler: WAFileLogErrorHandler ].
+			[ :appName | (WAAdmin defaultDispatcher handlerAt: appName) exceptionHandler: EmptyErrorHandler ].
