@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "UsabilityEvent",
-	"category" : "Kobold-UEvents",
+	"category" : "Kobold-Accessibility-AEvents",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

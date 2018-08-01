@@ -1,14 +1,15 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "UsabilitySmell",
-	"category" : "Kobold-USmells",
+	"category" : "Kobold-Accessibility-ASmells",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"downwards",
 		"url",
 		"addedTop"
 	],
-	"name" : "OverlookedContentForAccessibilityUsingTheKeyTab",
+	"name" : "OverlookedContentforAccessibility",
 	"type" : "normal"
 }
