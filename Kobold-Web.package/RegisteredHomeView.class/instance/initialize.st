@@ -7,7 +7,7 @@ initialize
 	views add: RefactoringsManager new.
 	views add: UsabilityEventsView new.
 	views add: TrackingCodeView new. "vista para embeber la aplicacion"
-	views add: TrackingCodeViewAccessibility  new. "vista para embeber la aplicacion"
+	views add: TrackingCodeViewAccessibility  new. "flap containing the code to embed on the page to capture the accessibility events"
 	views add: ConfigurationView new.
 	views add: AboutView new.
 	self session announcer "anunciador Declara que cuando se lanza CallView se ejecuta el bloque"
