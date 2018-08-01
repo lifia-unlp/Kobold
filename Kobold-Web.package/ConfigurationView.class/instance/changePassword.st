@@ -1,0 +1,3 @@
+actions
+changePassword
+	^changePassword

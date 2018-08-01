@@ -1,0 +1,4 @@
+accessing
+info
+
+	^'An element is often clicked upon, but it does not trigger any action.'

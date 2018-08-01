@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "JulianGrigera 6/8/2017 11:19",
+	"super" : "UsabilityEvent",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"url",
+		"interrupted",
+		"interruptions",
+		"startPageVisit"
+	],
+	"name" : "PageVisit",
+	"type" : "normal"
+}

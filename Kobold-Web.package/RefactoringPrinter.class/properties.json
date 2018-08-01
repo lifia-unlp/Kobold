@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JulianGrigera 7/22/2017 20:03",
+	"super" : "WAComponent",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"refactoring",
+		"smell"
+	],
+	"name" : "RefactoringPrinter",
+	"type" : "normal"
+}

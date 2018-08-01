@@ -1,0 +1,3 @@
+code generation
+printElementScriptOn: aStream
+	self subclassResponsibility

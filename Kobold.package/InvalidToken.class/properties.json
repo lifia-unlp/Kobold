@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Error",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"token"
+	],
+	"name" : "InvalidToken",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+A list of values is presented to the user either in a select box or a list of radio buttons. A particular value is selected too often but users must explicitly select it anyways.

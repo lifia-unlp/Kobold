@@ -1,0 +1,3 @@
+accessing - statistics
+textLengthMean
+	^ textLengthMean

@@ -1,0 +1,4 @@
+events filtering
+usesTextInput
+
+	^false

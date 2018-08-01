@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulianGrigera 7/15/2017 11:34",
+	"super" : "UsabilitySmellOnElement",
+	"category" : "Kobold-USmells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "InterruptedActivity",
+	"type" : "normal"
+}

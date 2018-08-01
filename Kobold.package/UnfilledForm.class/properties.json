@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEventOnElement",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"time"
+	],
+	"name" : "UnfilledForm",
+	"type" : "normal"
+}

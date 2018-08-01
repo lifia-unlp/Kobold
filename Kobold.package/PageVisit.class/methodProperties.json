@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"interrupted:" : " 3/21/2018 15:22:28",
+		"interruptions" : " 3/21/2018 15:22:28",
+		"interruptions:" : " 3/21/2018 15:22:28",
+		"addInterruption:" : " 3/21/2018 15:22:28",
+		"sumStartTimeInterruptions" : " 3/21/2018 15:22:28",
+		"url" : " 3/21/2018 15:22:28",
+		"interrupted" : " 3/21/2018 15:22:28",
+		"printOn:" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"startPageVisit" : " 3/21/2018 15:22:28",
+		"startPageVisit:" : " 3/21/2018 15:22:28",
+		"totalInterruptedTime" : " 3/21/2018 15:22:28",
+		"url:" : " 3/21/2018 15:22:28"
+	},
+	"class" : {
+		"fromGetParameters:" : " 3/21/2018 15:22:28",
+		"new" : " 3/21/2018 15:22:28"
+	}
+}

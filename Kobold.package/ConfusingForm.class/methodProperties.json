@@ -1,0 +1,17 @@
+{
+	"instance" : {
+		"failsCount" : " 3/21/2018 15:22:28",
+		"failsProportion" : " 3/21/2018 15:22:28",
+		"validationType" : " 3/21/2018 15:22:28",
+		"name" : " 3/21/2018 15:22:28",
+		"requiredInputs" : " 3/21/2018 15:22:28",
+		"printerClass" : " 3/21/2018 15:22:28",
+		"submissionsByValidationType" : " 3/21/2018 15:22:28",
+		"suggestedRefactoringsClasses" : " 3/21/2018 15:22:28",
+		"failsPercentage" : " 3/21/2018 15:22:28",
+		"info" : " 3/21/2018 15:22:28",
+		"successfulSubmissions" : " 3/21/2018 15:22:28",
+		"failedSubmissions" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"excessThreshold:" : " 3/21/2018 15:22:28",
+		"inputSizeTooLongFor:" : " 3/21/2018 15:22:28",
+		"excessThreshold" : " 3/21/2018 15:22:28",
+		"badSmellOn:" : " 3/21/2018 15:22:28",
+		"inputSizeTooShortFor:" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"usesTextInput" : " 3/21/2018 15:22:28",
+		"approves:" : " 3/21/2018 15:22:28",
+		"shortfallThreshold:" : " 3/21/2018 15:22:28",
+		"shortfallThreshold" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

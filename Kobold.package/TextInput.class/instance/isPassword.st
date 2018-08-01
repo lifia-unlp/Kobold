@@ -1,0 +1,3 @@
+testing
+isPassword
+	^ self text = '********'

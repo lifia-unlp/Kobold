@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"interruptStartTimeAverage" : " 3/21/2018 15:22:28",
+		"interruptAverageTime" : " 3/21/2018 15:22:28",
+		"notInterruptedPageVisitsCount" : " 3/21/2018 15:22:28",
+		"name" : " 3/21/2018 15:22:28",
+		"url" : " 3/21/2018 15:22:28",
+		"interruptedVisitsProportion" : " 3/21/2018 15:22:28",
+		"interruptionsStartTimeAverage" : " 3/21/2018 15:22:28",
+		"printerClass" : " 3/21/2018 15:22:28",
+		"interruptedPageVisitsCount" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"interruptionsPerVisitAverage" : " 3/21/2018 15:22:28",
+		"interruptPerVisitAverage" : " 3/21/2018 15:22:28",
+		"InterruptAverageTime" : " 3/21/2018 15:22:28",
+		"printOn:" : " 3/21/2018 15:22:28",
+		"totalInterruptions" : " 3/21/2018 15:22:28",
+		"interruptedPageVisits" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

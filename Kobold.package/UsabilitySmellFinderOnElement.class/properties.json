@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilitySmellFinder",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UsabilitySmellFinderOnElement",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+events filtering
+usesFlashNavigation
+
+	^false

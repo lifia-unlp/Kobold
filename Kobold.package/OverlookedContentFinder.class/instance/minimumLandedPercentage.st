@@ -1,0 +1,4 @@
+configuring
+minimumLandedPercentage
+	
+	^minimumLandedPercentage

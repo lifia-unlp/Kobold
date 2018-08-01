@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"initialize" : "Fernando 4/12/2018 16:23",
+		"addEvent:to:" : "fernnando 4/17/2018 17:07",
+		"event:belongsIn:" : " 3/21/2018 15:22:28",
+		"addSmellWithEvent:to:" : "fernnando 4/17/2018 17:11",
+		"smells" : " 3/21/2018 15:22:28",
+		"cleanCache" : " 3/21/2018 15:22:28",
+		"smells:" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

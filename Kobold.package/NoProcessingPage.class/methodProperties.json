@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"basicEventsCount:" : " 3/21/2018 15:22:28",
+		"averageTime:" : " 3/21/2018 15:22:28",
+		"recalculateAverageFrom:" : " 3/21/2018 15:22:28",
+		"name" : " 3/21/2018 15:22:28",
+		"eventsCount" : " 3/21/2018 15:22:28",
+		"formXPath" : " 3/21/2018 15:22:28",
+		"printerClass" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"printOn:" : " 3/21/2018 15:22:28",
+		"suggestedRefactoringsClasses" : " 3/21/2018 15:22:28",
+		"info" : " 3/21/2018 15:22:28",
+		"targetURL" : " 3/21/2018 15:22:28",
+		"addEvent:" : " 3/21/2018 15:22:28",
+		"averageTime" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

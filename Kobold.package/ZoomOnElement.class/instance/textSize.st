@@ -1,0 +1,4 @@
+initialize-release
+textSize
+
+	^textSize

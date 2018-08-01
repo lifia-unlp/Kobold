@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JulianGrigera 7/17/2017 13:03",
+	"super" : "UsabilityRefactoring",
+	"category" : "Kobold-URefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"refactoringId",
+		"domElement"
+	],
+	"name" : "UsabilityRefactoringOnElement",
+	"type" : "normal"
+}

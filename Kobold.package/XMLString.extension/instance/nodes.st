@@ -1,0 +1,3 @@
+*Kobold
+nodes
+	^ OrderedCollection new

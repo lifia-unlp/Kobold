@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "EventsGroupingStrategy",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"smellsByCriterion"
+	],
+	"name" : "NilsimsaEventsGroupingStrategy",
+	"type" : "normal"
+}

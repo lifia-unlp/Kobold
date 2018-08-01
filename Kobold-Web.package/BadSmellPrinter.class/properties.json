@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulianGrigera 7/17/2017 10:30",
+	"super" : "WAComponent",
+	"category" : "Kobold-Web-USmellsPrinters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"badSmell"
+	],
+	"name" : "BadSmellPrinter",
+	"type" : "normal"
+}

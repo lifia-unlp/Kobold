@@ -1,0 +1,1 @@
+Refactorin de  #AutoDeleteEntryFieldAccessibilitySmell

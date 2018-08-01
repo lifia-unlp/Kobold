@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "JulianGrigera 6/8/2017 11:18",
+	"super" : "UsabilityEvent",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"steps",
+		"time",
+		"initialTop",
+		"finalTop",
+		"url"
+	],
+	"name" : "FlashScrolling",
+	"type" : "normal"
+}

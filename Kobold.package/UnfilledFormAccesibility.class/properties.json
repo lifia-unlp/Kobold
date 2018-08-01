@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UnfilledForm",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UnfilledFormAccesibility",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+accessing
+valuesBySimilarity
+
+	^self groups

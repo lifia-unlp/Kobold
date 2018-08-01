@@ -1,0 +1,4 @@
+configuring
+maximumUnfrequentValuesProportion: aFloat
+
+	maximumUnfrequentValuesProportion := aFloat

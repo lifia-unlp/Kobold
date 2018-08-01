@@ -1,0 +1,4 @@
+accessing
+navigations
+
+	^self events

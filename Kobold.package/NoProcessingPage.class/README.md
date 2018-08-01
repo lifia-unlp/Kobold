@@ -1,0 +1,1 @@
+NoProcessingPage represents a BadSmell in which a page usually takes long to process, and no information is presented to the user to indicate there is an ongoing process.

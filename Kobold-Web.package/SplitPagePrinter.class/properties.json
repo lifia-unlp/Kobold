@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SuggestedRefactoringPrinter",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SplitPagePrinter",
+	"type" : "normal"
+}

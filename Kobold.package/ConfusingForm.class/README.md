@@ -1,0 +1,2 @@
+A form fails to validate on the client, and users click on the submit button before they completed the required data in the correct way.
+A form lets users submit wrong data and only informs the issues after the submission.

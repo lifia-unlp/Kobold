@@ -1,0 +1,9 @@
+{
+	"instance" : {
+		"event:belongsIn:" : " 3/21/2018 15:22:28",
+		"similitudeRateBetween:and:" : " 3/21/2018 15:22:28",
+		"threshold" : " 3/21/2018 15:22:28",
+		"addEvent:to:" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

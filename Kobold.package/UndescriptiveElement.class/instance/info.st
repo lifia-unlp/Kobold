@@ -1,0 +1,4 @@
+accessing
+info
+
+	^'Many users try to get a tooltip from the element. This may be due to the element not being self-descriptive enough.'

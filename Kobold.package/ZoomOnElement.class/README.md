@@ -1,0 +1,1 @@
+Threat raised when the user zooms in on an element.

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UsabilitySmellFinderOnURL",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "InterruptedActivityFinder",
+	"type" : "normal"
+}

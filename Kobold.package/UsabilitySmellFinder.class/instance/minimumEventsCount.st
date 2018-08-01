@@ -1,0 +1,4 @@
+configuring
+minimumEventsCount
+	
+	^minimumEventsCount

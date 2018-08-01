@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"groupingStrategy",
+		"cachedSmells",
+		"minimumEventsCount"
+	],
+	"name" : "AccessibilitySmellFinder",
+	"type" : "normal"
+}

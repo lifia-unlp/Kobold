@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"allSmells" : " 3/21/2018 15:22:28",
+		"usesFormSubmission" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"usesUnfilledForm" : " 3/21/2018 15:22:28",
+		"badSmellOn:" : " 3/21/2018 15:22:28",
+		"minimumFailsProportion:" : " 3/21/2018 15:22:28",
+		"approves:" : "Fernadno 5/8/2018 13:26",
+		"minimumFailsProportion" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

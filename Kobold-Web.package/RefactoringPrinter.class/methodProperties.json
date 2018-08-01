@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"refactoring:" : " 3/21/2018 15:22:28",
+		"renderParameterFieldsOn:" : " 3/21/2018 15:22:28",
+		"smell" : " 3/21/2018 15:22:28",
+		"showSourceCode" : " 3/21/2018 15:22:28",
+		"smell:" : " 3/21/2018 15:22:28",
+		"renderContentOn:" : " 3/21/2018 15:22:28",
+		"renderDescriptionOn:" : " 3/21/2018 15:22:28",
+		"renderRemoveButtonOn:" : " 3/21/2018 15:22:28",
+		"refactoring" : " 3/21/2018 15:22:28",
+		"renderCodeButtonOn:" : " 3/21/2018 15:22:28",
+		"renderApplyButtonOn:" : " 3/21/2018 15:22:28"
+	},
+	"class" : {
+		"on:for:" : " 3/21/2018 15:22:28",
+		"newOn:for:" : " 3/21/2018 15:22:28"
+	}
+}

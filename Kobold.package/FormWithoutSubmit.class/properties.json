@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "RefactoringsScriptWriter",
+	"category" : "Kobold-URefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FormWithoutSubmit",
+	"type" : "normal"
+}

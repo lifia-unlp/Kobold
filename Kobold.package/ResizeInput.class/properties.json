@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulianGrigera 9/17/2017 17:14",
+	"super" : "UsabilityRefactoringOnElement",
+	"category" : "Kobold-URefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"newLength"
+	],
+	"name" : "ResizeInput",
+	"type" : "normal"
+}

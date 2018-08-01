@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"minimumRate:" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"minimumRate" : " 3/21/2018 15:22:28",
+		"usesSelectOptionSelection" : " 3/21/2018 15:22:28",
+		"badSmellOn:" : " 3/21/2018 15:22:28",
+		"usesRadioButtonSelection" : " 3/21/2018 15:22:28",
+		"approves:" : " 3/21/2018 15:22:28",
+		"usesOptionSelection" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

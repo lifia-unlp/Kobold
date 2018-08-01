@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "Fernando 3/23/2018 09:46",
+	"super" : "WARestfulHandler",
+	"category" : "Kobold-Web-RESTfulAPI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "KoboldService",
+	"type" : "normal"
+}

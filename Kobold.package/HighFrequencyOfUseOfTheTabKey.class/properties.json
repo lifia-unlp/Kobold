@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEvent",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"time",
+		"elementFinal",
+		"elementInicial",
+		"finalTop",
+		"initialTop",
+		"steps",
+		"url",
+		"xpath_final",
+		"xpath_inicial"
+	],
+	"name" : "HighFrequencyOfUseOfTheTabKey",
+	"type" : "normal"
+}

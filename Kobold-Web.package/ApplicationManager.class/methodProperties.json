@@ -1,0 +1,27 @@
+{
+	"instance" : {
+		"existUserWithEmail:andPassword:" : " 3/21/2018 15:22:28",
+		"clientAtToken:" : "Fernando 4/10/2018 17:44",
+		"finder" : " 3/21/2018 15:22:28",
+		"getUserByEmail:" : "Fernando 3/22/2018 17:53",
+		"clientCalled:" : "Fernando 3/22/2018 19:05",
+		"newUser:clientName:" : "Fernando 3/22/2018 19:38",
+		"users" : " 3/21/2018 15:22:28",
+		"initialize" : "Fernando 3/21/2018 21:25",
+		"encript:salt:" : "Fernando 3/22/2018 17:52",
+		"existUser:withPassword:" : " 3/21/2018 15:22:28",
+		"clients" : "Fernando 3/22/2018 19:04",
+		"existUsername:" : " 3/21/2018 15:22:28",
+		"existUserWithEmail:" : " 3/21/2018 15:22:28",
+		"finder:" : " 3/21/2018 15:22:28",
+		"getUser:" : "Fernando 3/22/2018 17:53",
+		"users:" : " 3/21/2018 15:22:28"
+	},
+	"class" : {
+		"loadInstanceFromDatabase" : "Fernando 3/22/2018 16:31",
+		"resetInstance" : "Fernando 3/22/2018 16:32",
+		"instance" : "Fernando 3/22/2018 19:34",
+		"readFromDatabaseOrNew" : "Fernando 3/22/2018 16:32",
+		"isVoyageRoot" : "Fernando 3/22/2018 16:31"
+	}
+}

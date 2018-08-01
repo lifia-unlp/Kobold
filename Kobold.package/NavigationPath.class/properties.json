@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEvent",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"navigations"
+	],
+	"name" : "NavigationPath",
+	"type" : "normal"
+}

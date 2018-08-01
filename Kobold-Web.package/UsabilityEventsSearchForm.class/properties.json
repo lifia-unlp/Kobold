@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"client",
+		"searchTerm",
+		"eventsList"
+	],
+	"name" : "UsabilityEventsSearchForm",
+	"type" : "normal"
+}

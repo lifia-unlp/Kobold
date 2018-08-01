@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilitySmellOnElement",
+	"category" : "Kobold-Accessibility-ASmells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NoLabelsToIdentifyFormEntryControlsSmell",
+	"type" : "normal"
+}

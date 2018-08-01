@@ -1,0 +1,1 @@
+Enhance a plain text input for dates with a date picker.

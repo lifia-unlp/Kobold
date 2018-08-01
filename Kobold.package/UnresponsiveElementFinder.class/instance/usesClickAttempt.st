@@ -1,0 +1,3 @@
+threats filtering
+usesClickAttempt
+	^ true

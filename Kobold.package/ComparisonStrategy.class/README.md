@@ -1,0 +1,1 @@
+The strategy with which strings are compared for detecting FreeInput Bad Smell.

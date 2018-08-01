@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilitySmell",
+	"category" : "Kobold-USmells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"url",
+		"addedTop"
+	],
+	"name" : "OverlookedContentForAccessibilityUsingTheKeyTab",
+	"type" : "normal"
+}

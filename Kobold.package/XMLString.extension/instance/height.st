@@ -1,0 +1,3 @@
+*Kobold
+height
+	^ 0

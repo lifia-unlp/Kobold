@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEvent",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"steps",
+		"time",
+		"initialTop",
+		"finalTop",
+		"url"
+	],
+	"name" : "FastScrollingWithKeyboard",
+	"type" : "normal"
+}

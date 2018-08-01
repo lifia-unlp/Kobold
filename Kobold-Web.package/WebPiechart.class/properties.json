@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"valuesWithOccurrences",
+		"identifier",
+		"colors",
+		"highlightColors"
+	],
+	"name" : "WebPiechart",
+	"type" : "normal"
+}

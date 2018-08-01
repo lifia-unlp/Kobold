@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "AbstractView",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"temporaryUser",
+		"clientName",
+		"repassword"
+	],
+	"name" : "RegisterView",
+	"type" : "normal"
+}

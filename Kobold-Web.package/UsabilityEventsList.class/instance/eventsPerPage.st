@@ -1,0 +1,3 @@
+pagination
+eventsPerPage
+	^ 50

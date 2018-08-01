@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "JulianGrigera 10/29/2015 11:42",
+	"super" : "Object",
+	"category" : "Kobold-Extensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"complete",
+		"numChar",
+		"accumulator",
+		"window",
+		"tran",
+		"digest",
+		"popc"
+	],
+	"name" : "Nilsimsa",
+	"type" : "normal"
+}

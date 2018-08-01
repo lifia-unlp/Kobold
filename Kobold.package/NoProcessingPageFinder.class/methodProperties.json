@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"criterionFor:" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"usesLongRequest" : " 3/21/2018 15:22:28",
+		"badSmellOn:" : " 3/21/2018 15:22:28",
+		"toleratedMilliseconds" : " 3/21/2018 15:22:28",
+		"minimumRequests" : " 3/21/2018 15:22:28",
+		"approves:" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

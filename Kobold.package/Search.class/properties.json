@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEventOnElement",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"searchQuery",
+		"time",
+		"foundResults",
+		"resultFollowed"
+	],
+	"name" : "Search",
+	"type" : "normal"
+}

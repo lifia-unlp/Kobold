@@ -1,0 +1,3 @@
+accessing - statistics
+textLengthVariance
+	^ textLengthVariance

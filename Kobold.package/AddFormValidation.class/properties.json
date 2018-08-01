@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulianGrigera 7/15/2017 11:21",
+	"super" : "UsabilityRefactoringOnElement",
+	"category" : "Kobold-URefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"requiredInputs"
+	],
+	"name" : "AddFormValidation",
+	"type" : "normal"
+}

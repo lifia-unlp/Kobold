@@ -1,0 +1,4 @@
+configuration
+minimumSinglesProportion
+
+	^minimumSinglesProportion

@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"allSmells" : "Fernando 4/13/2018 17:50",
+		"reevaluateSmells" : "Fernando 4/13/2018 17:22",
+		"groupingStrategy:" : "Fernando 4/12/2018 18:23",
+		"reevaluate:" : "Fernando 4/13/2018 17:53",
+		"approves:" : "Fernando 4/13/2018 17:55"
+	},
+	"class" : {
+		"new" : "Fernando 4/12/2018 17:31",
+		"voyageCollectionName" : "Fernando 4/12/2018 17:32",
+		"isVoyageRoot" : "Fernando 4/12/2018 17:32"
+	}
+}

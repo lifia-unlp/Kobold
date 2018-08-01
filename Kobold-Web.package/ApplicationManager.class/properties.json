@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "Fernando 3/22/2018 15:10",
+	"super" : "Object",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Instance"
+	],
+	"instvars" : [
+		"users",
+		"id"
+	],
+	"name" : "ApplicationManager",
+	"type" : "normal"
+}

@@ -1,0 +1,30 @@
+{
+	"instance" : {
+		"basicEventsCount:" : " 3/21/2018 15:22:28",
+		"eventsCount" : " 3/21/2018 15:22:28",
+		"shortTextInputsProportion" : " 3/21/2018 15:22:28",
+		"recalculateStatisticsFrom:" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"textLengthStandardDeviation" : " 3/21/2018 15:22:28",
+		"textLengthVariance:" : " 3/21/2018 15:22:28",
+		"name" : " 3/21/2018 15:22:28",
+		"textLengthVariance" : " 3/21/2018 15:22:28",
+		"addEvent:" : " 3/21/2018 15:22:28",
+		"textLengthMean:" : " 3/21/2018 15:22:28",
+		"exceededInputsProportion" : " 3/21/2018 15:22:28",
+		"info" : " 3/21/2018 15:22:28",
+		"exceededInputsCount" : " 3/21/2018 15:22:28",
+		"printerClass" : " 3/21/2018 15:22:28",
+		"textLengthMeanDifference" : " 3/21/2018 15:22:28",
+		"textLengthMean" : " 3/21/2018 15:22:28",
+		"averageInputsLength" : " 3/21/2018 15:22:28",
+		"shortTextInputs" : " 3/21/2018 15:22:28",
+		"suggestedRefactoringsClasses" : " 3/21/2018 15:22:28",
+		"inputLength" : " 3/21/2018 15:22:28",
+		"exceededInputs" : " 3/21/2018 15:22:28",
+		"recalculateTextLengthMeanFrom:" : " 3/21/2018 15:22:28",
+		"recalculateTextLengthVarianceFrom:" : " 3/21/2018 15:22:28",
+		"shortTextInputsCount" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

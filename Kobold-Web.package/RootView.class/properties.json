@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "Fernando 3/22/2018 23:57",
+	"super" : "WAComponent",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"view",
+		"development"
+	],
+	"name" : "RootView",
+	"type" : "normal"
+}

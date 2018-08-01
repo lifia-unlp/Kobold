@@ -1,0 +1,3 @@
+configuration
+minimumRequests
+	^ 15

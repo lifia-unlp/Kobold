@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulianGrigera 7/18/2017 22:35",
+	"super" : "Object",
+	"category" : "Kobold-Extensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "KoboldScriptsRunner",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilitySmellFinderOnURL",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"minimumLandedPercentage"
+	],
+	"name" : "FastScrollingWithKeyboardFinder",
+	"type" : "normal"
+}

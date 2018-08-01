@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilitySmellOnElement",
+	"category" : "Kobold-USmells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"expressions",
+		"refactoringsByExpression"
+	],
+	"name" : "UnformattedInput",
+	"type" : "normal"
+}

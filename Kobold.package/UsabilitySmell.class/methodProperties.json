@@ -1,0 +1,36 @@
+{
+	"instance" : {
+		"appliedRefactoringOfKind:" : " 3/21/2018 15:22:28",
+		"eventsCount:" : " 3/21/2018 15:22:28",
+		"addAllEvents:" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"refactorings:" : " 3/21/2018 15:22:28",
+		"unignore" : " 3/21/2018 15:22:28",
+		"name" : " 3/21/2018 15:22:28",
+		"suggestedRefactorings" : " 3/21/2018 15:22:28",
+		"appliedRefactorings" : " 3/21/2018 15:22:28",
+		"addEvent:" : "fernnando 4/17/2018 17:33",
+		"applyRefactoring:" : " 3/21/2018 15:22:28",
+		"info" : " 3/21/2018 15:22:28",
+		"events:" : " 3/21/2018 15:22:28",
+		"refactorings" : " 3/21/2018 15:22:28",
+		"removeRefactoring:" : " 3/21/2018 15:22:28",
+		"printerClass" : "Fernadno 4/25/2018 19:54",
+		"printer" : " 3/21/2018 15:22:28",
+		"refactored" : " 3/21/2018 15:22:28",
+		"ignored:" : " 3/21/2018 15:22:28",
+		"anyEvent" : " 3/21/2018 15:22:28",
+		"suggestedRefactoringsClasses" : " 3/21/2018 15:22:28",
+		"events" : " 3/21/2018 15:22:28",
+		"resetStats" : " 3/21/2018 15:22:28",
+		"ignore" : " 3/21/2018 15:22:28",
+		"alreadyApplied:" : " 3/21/2018 15:22:28",
+		"ignored" : " 3/21/2018 15:22:28",
+		"eventsCount" : "Fernadno 4/26/2018 18:09"
+	},
+	"class" : {
+		"new" : " 3/21/2018 15:22:28",
+		"events:" : " 3/21/2018 15:22:28",
+		"isVoyageRoot" : " 3/21/2018 15:22:28"
+	}
+}

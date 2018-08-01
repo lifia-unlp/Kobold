@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "Kobold-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lengths",
+		"smellShort"
+	],
+	"name" : "UnmatchedInputSizeTest",
+	"type" : "normal"
+}

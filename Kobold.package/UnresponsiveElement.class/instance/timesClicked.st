@@ -1,0 +1,4 @@
+accessing
+timesClicked
+
+	^self eventsCount

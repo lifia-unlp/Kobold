@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulianGrigera 9/17/2017 18:54",
+	"super" : "UsabilityRefactoringOnElement",
+	"category" : "Kobold-URefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"newName"
+	],
+	"name" : "RenameElement",
+	"type" : "normal"
+}

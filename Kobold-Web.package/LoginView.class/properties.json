@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "AbstractView",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"logonID",
+		"password"
+	],
+	"name" : "LoginView",
+	"type" : "normal"
+}

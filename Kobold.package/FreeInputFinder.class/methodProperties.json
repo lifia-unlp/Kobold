@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"minimumGroupProportion" : " 3/21/2018 15:22:28",
+		"badSmellOn:" : " 3/21/2018 15:22:28",
+		"strategy" : " 3/21/2018 15:22:28",
+		"setKeyboardStrategy" : " 3/21/2018 15:22:28",
+		"maximumUnfrequentValuesProportion" : " 3/21/2018 15:22:28",
+		"minimumGroupProportion:" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"setExactStrategy" : " 3/21/2018 15:22:28",
+		"usesTextInput" : " 3/21/2018 15:22:28",
+		"maximumUnfrequentValuesProportion:" : " 3/21/2018 15:22:28",
+		"approves:" : " 3/21/2018 15:22:28",
+		"setLevenshteinStrategy" : " 3/21/2018 15:22:28",
+		"strategy:" : " 3/21/2018 15:22:28"
+	},
+	"class" : {
+		"new" : " 3/21/2018 15:22:28",
+		"newWithStrategy:" : " 3/21/2018 15:22:28"
+	}
+}

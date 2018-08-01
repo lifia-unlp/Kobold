@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"usDetailsModal:" : "Fernadno 5/8/2018 17:04",
+		"ignoredSmellsCount" : " 3/21/2018 15:22:28",
+		"renderContentOn:" : " 3/21/2018 15:22:28",
+		"name" : " 3/21/2018 15:22:28",
+		"renderBadSmellsList:" : "Fernadno 5/8/2018 17:03",
+		"badSmellsList:" : " 3/21/2018 15:22:28",
+		"renderReloadButton:" : " 3/21/2018 15:22:28",
+		"renderTabNameOn:" : " 3/21/2018 15:22:28",
+		"renderNoBadSmellsMessage:" : " 3/21/2018 15:22:28",
+		"renderShowIgnoredButtonOn:" : " 3/21/2018 15:22:28",
+		"recalculateBadSmells" : " 3/21/2018 15:22:28",
+		"showIgnoredSmells" : " 3/21/2018 15:22:28",
+		"timeCorrection" : " 3/21/2018 15:22:28",
+		"client" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

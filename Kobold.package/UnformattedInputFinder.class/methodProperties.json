@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"minimumProportion" : " 3/21/2018 15:22:28",
+		"addAllExpressions:" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"badSmellsInElements:" : " 3/21/2018 15:22:28",
+		"usesTextInput" : " 3/21/2018 15:22:28",
+		"badSmellOn:" : " 3/21/2018 15:22:28",
+		"addExpression:" : " 3/21/2018 15:22:28",
+		"approves:" : " 3/21/2018 15:22:28",
+		"expressions" : " 3/21/2018 15:22:28"
+	},
+	"class" : {
+		"new" : " 3/21/2018 15:22:28"
+	}
+}

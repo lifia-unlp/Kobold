@@ -1,0 +1,43 @@
+{
+	"instance" : {
+		"unfrequentValuesProportion" : " 3/21/2018 15:22:28",
+		"frequentValuesGroups" : " 3/21/2018 15:22:28",
+		"valuesBySimilarity" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"groupFor:" : " 3/21/2018 15:22:28",
+		"minimumGroupProportion" : " 3/21/2018 15:22:28",
+		"groups" : " 3/21/2018 15:22:28",
+		"name" : " 3/21/2018 15:22:28",
+		"recalculateValuesWithOccurrences" : " 3/21/2018 15:22:28",
+		"groups:" : " 3/21/2018 15:22:28",
+		"hasPlainText" : " 3/21/2018 15:22:28",
+		"hasOnlyPasswords" : " 3/21/2018 15:22:28",
+		"addToGroups:" : " 3/21/2018 15:22:28",
+		"addEvent:" : " 3/21/2018 15:22:28",
+		"hasPasswords" : " 3/21/2018 15:22:28",
+		"info" : " 3/21/2018 15:22:28",
+		"frequentValues" : " 3/21/2018 15:22:28",
+		"hasPasswords:" : " 3/21/2018 15:22:28",
+		"anyGroupAdmits:" : " 3/21/2018 15:22:28",
+		"minimumGroupProportion:" : " 3/21/2018 15:22:28",
+		"printerClass" : " 3/21/2018 15:22:28",
+		"unfrequentValuesCount" : " 3/21/2018 15:22:28",
+		"similarValuesOf:" : " 3/21/2018 15:22:28",
+		"hasPlainText:" : " 3/21/2018 15:22:28",
+		"suggestedRefactoringsClasses" : " 3/21/2018 15:22:28",
+		"unfrequentValuesGroups" : " 3/21/2018 15:22:28",
+		"addToGroup:" : " 3/21/2018 15:22:28",
+		"singleValues" : " 3/21/2018 15:22:28",
+		"valuesWithOccurrences" : " 3/21/2018 15:22:28",
+		"strategy:" : " 3/21/2018 15:22:28",
+		"createNewGroupFor:" : " 3/21/2018 15:22:28",
+		"printOn:" : " 3/21/2018 15:22:28",
+		"hasNoPasswords" : " 3/21/2018 15:22:28",
+		"isFrequent:" : " 3/21/2018 15:22:28",
+		"minimumRepetitions" : " 3/21/2018 15:22:28",
+		"strategy" : " 3/21/2018 15:22:28"
+	},
+	"class" : {
+		"on:threats:withStrategy:minimumGroupProportion:" : " 3/21/2018 15:22:28"
+	}
+}

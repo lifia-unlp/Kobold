@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEventOnElement",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selectionIndex",
+		"optionChanged"
+	],
+	"name" : "OptionSelection",
+	"type" : "normal"
+}

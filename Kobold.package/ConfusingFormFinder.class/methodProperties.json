@@ -1,0 +1,11 @@
+{
+	"instance" : {
+		"usesFormSubmission" : " 3/21/2018 15:22:28",
+		"initialize" : " 3/21/2018 15:22:28",
+		"badSmellOn:" : "fernnando 4/16/2018 19:26",
+		"minimumFailsProportion:" : " 3/21/2018 15:22:28",
+		"approves:" : " 3/21/2018 15:22:28",
+		"minimumFailsProportion" : " 3/21/2018 15:22:28"
+	},
+	"class" : { }
+}

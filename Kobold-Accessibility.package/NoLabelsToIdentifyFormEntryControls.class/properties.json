@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEventOnElement",
+	"category" : "Kobold-Accessibility-AEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NoLabelsToIdentifyFormEntryControls",
+	"type" : "normal"
+}

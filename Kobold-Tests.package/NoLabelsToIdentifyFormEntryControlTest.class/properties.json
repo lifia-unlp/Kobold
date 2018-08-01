@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "Kobold-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"servicio",
+		"smell",
+		"event",
+		"campos"
+	],
+	"name" : "NoLabelsToIdentifyFormEntryControlTest",
+	"type" : "normal"
+}

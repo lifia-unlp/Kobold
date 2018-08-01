@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JulianGrigera 6/28/2017 16:31",
+	"super" : "AbstractView",
+	"category" : "Kobold-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"view",
+		"views"
+	],
+	"name" : "RegisteredHomeView",
+	"type" : "normal"
+}

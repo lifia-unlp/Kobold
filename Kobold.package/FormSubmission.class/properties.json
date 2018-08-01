@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEventOnElement",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"failed",
+		"validationType",
+		"isSearchForm",
+		"time",
+		"emptyInputs"
+	],
+	"name" : "FormSubmission",
+	"type" : "normal"
+}

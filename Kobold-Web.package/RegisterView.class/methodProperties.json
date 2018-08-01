@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"savePassword:" : " 3/21/2018 15:22:28",
+		"temporaryUser" : " 3/21/2018 15:22:28",
+		"register" : "Fernando 3/22/2018 19:44",
+		"repassword" : " 3/21/2018 15:22:28",
+		"clientName:" : " 3/21/2018 15:22:28",
+		"renderContentOn:" : "Fernando 3/22/2018 19:24",
+		"registerAllowed" : "Fernando 3/22/2018 19:31",
+		"saveRePassword:" : " 3/21/2018 15:22:28",
+		"initialize" : "Fernando 3/22/2018 19:45",
+		"checkAvailability" : "Fernando 3/22/2018 19:29",
+		"clientName" : " 3/21/2018 15:22:28",
+		"repassword:" : " 3/21/2018 15:22:28",
+		"temporaryUser:" : " 3/21/2018 15:22:28",
+		"usernameAvailable" : "Fernando 3/22/2018 19:28",
+		"emailAvailable" : "Fernando 3/22/2018 19:29",
+		"checkPasswords" : "Fernando 3/22/2018 19:30"
+	},
+	"class" : { }
+}

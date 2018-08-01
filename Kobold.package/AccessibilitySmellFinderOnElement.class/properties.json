@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "AccessibilitySmellFinder",
+	"category" : "Kobold-USmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AccessibilitySmellFinderOnElement",
+	"type" : "normal"
+}

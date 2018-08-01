@@ -1,0 +1,3 @@
+accessing
+info
+	self subclassResponsibility

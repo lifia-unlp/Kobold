@@ -1,0 +1,3 @@
+*Kobold
+nodesCount
+	^ 0

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Kobold-USmells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"refactorings",
+		"events",
+		"ignored"
+	],
+	"name" : "UsabilitySmell",
+	"type" : "normal"
+}

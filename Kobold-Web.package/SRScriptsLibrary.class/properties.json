@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "WAFileMetadataLibrary",
+	"category" : "Kobold-Web-Libraries",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SRScriptsLibrary",
+	"type" : "normal"
+}

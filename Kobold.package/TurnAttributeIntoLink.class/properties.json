@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulianGrigera 7/17/2017 12:52",
+	"super" : "UsabilityRefactoringOnElement",
+	"category" : "Kobold-URefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"url"
+	],
+	"name" : "TurnAttributeIntoLink",
+	"type" : "normal"
+}

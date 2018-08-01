@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UsabilityEvent",
+	"category" : "Kobold-UEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"domElement"
+	],
+	"name" : "UsabilityEventOnElement1",
+	"type" : "normal"
+}

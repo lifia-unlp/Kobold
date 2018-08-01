@@ -1,0 +1,1 @@
+Detects a submit whose parent form has a list of checkboxes, and only one is checked.

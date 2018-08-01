@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "AbandonedForm",
+	"category" : "Kobold-USmells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AbandonedFormAccesibility",
+	"type" : "normal"
+}
