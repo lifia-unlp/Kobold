@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "fernnando 4/19/2018 17:05",
 	"super" : "UsabilityRefactoringOnElement",
-	"category" : "Kobold-URefactorings",
+	"category" : "Kobold-Accessibility-ARefactorings",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
