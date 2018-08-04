@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TypeDetectionEvent",
+	"category" : "Kobold-Accessibility-Extension",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DetByEmbJavaScript",
+	"type" : "normal"
+}

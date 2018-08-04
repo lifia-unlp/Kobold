@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityRefactoring",
+	"category" : "Kobold-Accessibility-ARefactorings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ReplaceCaptcha",
+	"type" : "normal"
+}

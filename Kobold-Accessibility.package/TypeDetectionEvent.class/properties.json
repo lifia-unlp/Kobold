@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Kobold-Accessibility-Extension",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"description",
+		"acronym"
+	],
+	"name" : "TypeDetectionEvent",
+	"type" : "normal"
+}

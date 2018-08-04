@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "UsabilityRefactoring",
-	"category" : "Kobold-URefactorings",
+	"super" : "AbandonedForm",
+	"category" : "Kobold-Accessibility-ASmells",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ReplaceCaptcha",
+	"name" : "ThereIsNoSubmitButton",
 	"type" : "normal"
 }

@@ -14,7 +14,8 @@
 		"steps",
 		"url",
 		"xpath_final",
-		"xpath_inicial"
+		"xpath_inicial",
+		"typeDetection"
 	],
 	"name" : "HighFrequencyOfUseOfTheTabKey",
 	"type" : "normal"

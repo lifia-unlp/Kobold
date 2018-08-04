@@ -10,7 +10,8 @@
 		"time",
 		"initialTop",
 		"finalTop",
-		"url"
+		"url",
+		"typeDetection"
 	],
 	"name" : "FastScrollingWithKeyboard",
 	"type" : "normal"
