@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "BadSmellOnElementPrinter",
-	"category" : "Kobold-Web-USmellsPrinters",
+	"category" : "Kobold-Accessibility-ASmellsPrinters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

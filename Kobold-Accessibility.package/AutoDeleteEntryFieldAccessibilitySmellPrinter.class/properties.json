@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "BadSmellOnElementPrinter",
-	"category" : "Kobold-Web-USmellsPrinters",
+	"category" : "Kobold-Accessibility-ASmellsPrinters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "NoLabelsToIdentifyFormEntryControlsSmellPrinter",
+	"name" : "AutoDeleteEntryFieldAccessibilitySmellPrinter",
 	"type" : "normal"
 }
