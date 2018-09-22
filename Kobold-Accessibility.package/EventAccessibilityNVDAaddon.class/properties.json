@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilityEvent",
+	"category" : "Kobold-Accessibility-AEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EventAccessibilityNVDAaddon",
+	"type" : "normal"
+}

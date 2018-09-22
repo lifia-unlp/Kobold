@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "BadSmellOnElementPrinter",
+	"category" : "Kobold-Accessibility-ASmellsPrinters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OverlookedContentBetweenListsPrinter",
+	"type" : "normal"
+}

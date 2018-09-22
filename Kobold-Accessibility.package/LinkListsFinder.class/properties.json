@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilitySmellFinderOnURL",
+	"category" : "Kobold-Accessibility-ASmellsFinders",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LinkListsFinder",
+	"type" : "normal"
+}

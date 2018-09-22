@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "NvdaComplementSmell",
+	"category" : "Kobold-Accessibility-ASmells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"downwards",
+		"url"
+	],
+	"name" : "OverlookedContentBetweenLists",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "UsabilitySmell",
+	"category" : "Kobold-Accessibility-ASmells",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"domElements"
+	],
+	"name" : "NvdaComplementSmell",
+	"type" : "normal"
+}

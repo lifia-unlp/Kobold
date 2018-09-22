@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "EventAccessibilityNVDAaddon",
+	"category" : "Kobold-Accessibility-AEvents",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"xpathsList",
+		"url",
+		"steps",
+		"initialTop",
+		"finalTop"
+	],
+	"name" : "NavigationBetweenLists",
+	"type" : "normal"
+}
