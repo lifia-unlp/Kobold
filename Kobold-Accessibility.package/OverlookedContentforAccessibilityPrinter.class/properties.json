@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "BadSmellPrinter",
 	"category" : "Kobold-Accessibility-ASmellsPrinters",
 	"classinstvars" : [ ],
