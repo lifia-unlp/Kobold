@@ -5,3 +5,4 @@ SystemOrganization addCategory: 'Kobold-Accessibility-ASmells'!
 SystemOrganization addCategory: 'Kobold-Accessibility-ASmellsFinders'!
 SystemOrganization addCategory: 'Kobold-Accessibility-ASmellsPrinters'!
 SystemOrganization addCategory: 'Kobold-Accessibility-Extension'!
+SystemOrganization addCategory: 'Kobold-Accessibility-GroupingStrategyNVDAComplement'!

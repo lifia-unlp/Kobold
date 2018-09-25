@@ -1,13 +1,11 @@
 {
 	"instance" : {
 		"printerClass" : "Fdurgam 9/19/2018 19:24",
-		"domElements:" : "Fdurgam 9/21/2018 20:27",
-		"downwards:" : "Fdurgam 9/21/2018 19:09",
-		"url" : "Fdurgam 9/19/2018 20:43",
 		"url:" : "Fdurgam 9/19/2018 20:38",
+		"downwards:" : "Fdurgam 9/21/2018 19:09",
+		"initialize" : "Fdurgam 9/25/2018 18:32",
+		"url" : "Fdurgam 9/19/2018 20:43",
 		"downwards" : "Fdurgam 9/21/2018 19:10",
-		"domElements" : "Fdurgam 9/22/2018 15:22",
-		"domElement" : "Fdurgam 9/22/2018 15:43",
 		"suggestedRefactoringsClasses" : "Fdurgam 9/19/2018 19:28"
 	},
 	"class" : {

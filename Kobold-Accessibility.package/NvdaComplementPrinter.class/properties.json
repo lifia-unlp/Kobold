@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "NvdaComplementPrinter",
+	"super" : "BadSmellPrinter",
 	"category" : "Kobold-Accessibility-ASmellsPrinters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "OverlookedContentBetweenListsPrinter",
+	"name" : "NvdaComplementPrinter",
 	"type" : "normal"
 }

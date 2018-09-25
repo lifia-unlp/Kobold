@@ -1,6 +1,6 @@
 bad smells
 badSmellOn: events
-| url xpathsList |
+| url ListElementNav|
 url:=events first url.
-xpathsList:=events first xpathsList .
-^ OverlookedContentBetweenLists downwardsOn:url threats: events domElements:xpathsList
+ListElementNav:=events first listElement.
+^ OverlookedContentBetweenLists downwardsOn:url threats: events domElements:ListElementNav

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "EventsGroupingStrategy",
+	"category" : "Kobold-Accessibility-GroupingStrategyNVDAComplement",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ExactMatchNavigationGroupingStrategy",
+	"type" : "normal"
+}
