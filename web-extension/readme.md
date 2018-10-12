@@ -8,3 +8,17 @@ This web-extension captures events and reports them to a remote server. You can 
 
 Event reports must be associated to a Kobold project token. You can set the token in the options page. You can obtain your token in the "tracking code" tab in your Kobold account. 
 
+## Building the web-extension
+
+This extension depends on external libraries such as jQuery, and the Webextension-polyfill. Dependencies can be installed via npm. 
+
+Run ```npm install``` in the web-extension folder to install dependencies. 
+
+## Distributing and installing the web-extension
+
+In order to work, the web-extension need to be installed in your web-browser. At the moment, the extension only works with Chrome and Firefox. 
+
+Everything you need to install the web-extension is inside the web-extension folder. Copy the content of this folder to your target machines and install the plugin via the normal methods of your target browser. 
+
+
+
