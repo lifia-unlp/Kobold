@@ -1,6 +1,6 @@
-# Kobold event interception ewb-extension
+# Kobold event interception web-extension
 
-In order to work, Kobold needs to incercept and record events that take place while using your web application. This is achieved via incerception code that is injected in all of your application's web pages. 
+In order to work, Kobold needs to incercept and record events that take place while using your web application. This is achieved via interception code that is injected in all of your application's web pages. 
 
 This web-extension, once installed in your browser (Chrome of Firefox only), will intercet UI events in all pages from all sites. Interception behaviour will stop once you uninstall the web-extension and restart your browser.
 

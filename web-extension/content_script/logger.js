@@ -1,3 +1,8 @@
+var xpathInstance = new XpathProcessor();
+var SelfRefactoringServerUrl = "";
+var SelfRefactoringToken = "";
+var logger = null;
+
 /************************************************************************************************************
 											Diacritic accents removal
 ************************************************************************************************************/
@@ -268,7 +273,7 @@ if (jQueryVersion >= version18) {
 											Logger
 ************************************************************************************************************/
 function Logger(serverHost, verbose) {
-    this.clientToken = window.SelfRefactoringToken;
+    this.clientToken = SelfRefactoringToken;
     this.host = serverHost + "/Threats";
     this.refactoringsHost = serverHost + "/RefactoringsServer/";
     this.verbose = typeof verbose === "undefined" ? false : verbose;
@@ -492,14 +497,14 @@ function ClickAttempt(paramOc_Ev, paramOc_Elem, paramOc_T) {
             clickAttempt._event = e;
             clickAttempt.element = e.currentTarget;
             clickAttempt.oc_T = true;
-            setTimeout("logger.clickAttempt.timeout_trigger(logger)", 100);
+            setTimeout(() => {logger.clickAttempt.timeout_trigger(logger)}, 100);
         }
         e.stopPropagation();
     });
 
     $("*").on("mouseup", function(e) {
         setTimeout(
-            "logger.clickAttempt.selectionText=logger.clickAttempt.getSelectionText()",
+            () => {logger.clickAttempt.selectionText=logger.clickAttempt.getSelectionText()},
             25
         );
         e.stopPropagation();
@@ -578,7 +583,7 @@ function FlashScroll(
         }
         clearTimeout(flashScroll.timer);
         flashScroll.timer = setTimeout(
-            "logger.flashScroll.flush(logger)",
+            () => {logger.flashScroll.flush(logger)},
             flashScroll.dwellingTime
         );
     });
@@ -1313,8 +1318,7 @@ function FlashNavigation(paramMaximumTime) {
             }
             flashNavigation.flushCookies();
         } else
-            setTimeout(
-                "logger.flashNavigation.flushCookies()",
+            setTimeout(() => {logger.flashNavigation.flushCookies()},
                 flashNavigation.maximumTime
             );
     };
@@ -1340,7 +1344,7 @@ function NavigationPath(
 
     this.initialize = function() {
         setTimeout(
-            "logger.navigationPath.lastNodeReached(logger)",
+            () => {logger.navigationPath.lastNodeReached(logger)},
             navigationPath.maximumTime
         );
         $("a").on("click", function(e) {
@@ -1706,32 +1710,31 @@ function ZoomOnElement(zoomAmount) {
 })(jQuery);
 
 var start = function() {
-    window.xpathInstance = new XpathProcessor();
-    window.logger = new Logger(window.SelfRefactoringServerUrl, true);
-    window.logger.loadUsabilityEventsLoggers();
-    window.logger.updateActiveVersion();
-    window.logger.loadRefactorings();
+    logger = new Logger(SelfRefactoringServerUrl, true);
+    logger.loadUsabilityEventsLoggers();
+    logger.updateActiveVersion();
+    logger.loadRefactorings();
     console.log("Logger started ...");
-    console.log("... token: ", window.SelfRefactoringToken);
-    console.log("... server: ", window.SelfRefactoringServerUrl);
+    console.log("... token: ", SelfRefactoringToken);
+    console.log("... server: ", SelfRefactoringServerUrl);
 };
 
 var updateConfiguration = function(config) {
-    window.SelfRefactoringToken = config.koboldToken;
-    window.SelfRefactoringServerUrl = config.koboldServer;
+    SelfRefactoringToken = config.koboldToken;
+    SelfRefactoringServerUrl = config.koboldServer;
 };
 
 browser.storage.onChanged.addListener((change, area) => {
     if (area == "local" && change.config.newValue) {
-		updateConfiguration(change.config.newValue);
-		console.log("Configuration updated ...");
-		console.log("... token: ", window.SelfRefactoringToken);
-		console.log("... server: ", window.SelfRefactoringServerUrl);
+        updateConfiguration(change.config.newValue);
+        console.log("Configuration updated ...");
+        console.log("... token: ", SelfRefactoringToken);
+        console.log("... server: ", SelfRefactoringServerUrl);
     }
 });
 
 browser.storage.local.get("config").then(data => {
     var config = data.config;
-	updateConfiguration(config);
-	start();
+    updateConfiguration(config);
+    start();
 });
