@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="options.css">
+</head>
+
+<body>
+  <span class="big">Kobold <img alt="" src="koboldLogo.png"></span>
+  <p>Please note that this plugin, once installed, will inject interception code in all pages open in this browser.</p>
+  <form>
+    <p>Intercepted events will be reported to the server provided below.</p>
+    <p><strong>Kobold project server: </strong><input type="text" id="kobold-server" size=60></p>
+    <p>Kobold events are associated to a project. Each project is identified by a token.
+      You can obtain your project's token from the "tracking code" tab of your Kobold account. </p>
+    <p><strong>Kobold project token: </strong><input type="text" id="kobold-token" size=60></p>
+    <p><button id="submit-button" type="submit">Save</button></p>
+  </form>
+  <script src="/node_modules/webextension-polyfill/dist/browser-polyfill.min.js"></script>
+  <script src="options.js"></script>
+</body>
+
+</html>
