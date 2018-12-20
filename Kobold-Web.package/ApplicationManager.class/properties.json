@@ -7,10 +7,7 @@
 	"classvars" : [
 		"Instance"
 	],
-	"instvars" : [
-		"users",
-		"id"
-	],
+	"instvars" : [ ],
 	"name" : "ApplicationManager",
 	"type" : "normal"
 }

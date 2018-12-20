@@ -1,3 +1,3 @@
 accessing
 users
-	^users
+	^ RegisteredClient selectAll
