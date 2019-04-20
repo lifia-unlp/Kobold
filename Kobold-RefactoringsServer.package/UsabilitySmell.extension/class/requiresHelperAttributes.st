@@ -1,0 +1,3 @@
+*Kobold-RefactoringsServer
+requiresHelperAttributes
+	^ self recommendationHelperAttributes isNotEmpty

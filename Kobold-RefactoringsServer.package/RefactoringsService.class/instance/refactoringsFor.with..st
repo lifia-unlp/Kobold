@@ -2,7 +2,12 @@ endpoint-post
 refactoringsFor: smellId with: someParameters
 	| smell refactorings |
 	smell := self smellWithId: smellId.
-	refactorings := smell new suggestedRefactoringsClasses.
+	refactorings := someParameters
+		ifEmpty: [ [ smell new suggestedRefactoringsClasses ]
+				on: Error
+				do:
+					[ ^ {('error' -> 'This smell requires extra attributes for recommending refactorings.')} asDictionary ] ]
+		ifNotEmpty: [ smell new suggestedRefactoringsClassesFrom: someParameters ].
 	^ refactorings
 		collect: [ :refactoringClass | 
 			| refactoring |
@@ -10,4 +15,4 @@ refactoringsFor: smellId with: someParameters
 			{('id' -> refactoringClass refactoringId).
 			('name' -> refactoring name).
 			('description' -> refactoring info).
-			('additionalAttributes' -> refactoringClass additionalAttributes)} asDictionary ]
+			('additionalAttributes' -> refactoringClass additionalAttributes)} asOrderedDictionary ]
