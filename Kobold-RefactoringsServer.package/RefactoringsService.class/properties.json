@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "JulianGrigera 4/19/2019 18:44",
+	"super" : "Object",
+	"category" : "Kobold-RefactoringsServer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Instance"
+	],
+	"instvars" : [
+		"teapot"
+	],
+	"name" : "RefactoringsService",
+	"type" : "normal"
+}
