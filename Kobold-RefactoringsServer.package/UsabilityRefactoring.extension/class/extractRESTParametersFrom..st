@@ -1,7 +1,7 @@
 *Kobold-RefactoringsServer
 extractRESTParametersFrom: aDictionary
-	| parameters |
-	parameters := aDictionary at: #attributes.
-	^ (parameters
-		collect: [ :parameter | (parameter at: #id) asNumber -> (parameter at: #value) ])
-		asDictionary
+	| simpleParameters listedParameters |
+	simpleParameters := (aDictionary at: #attributes) reject: #isArray.
+	listedParameters := (aDictionary at: #attributes) select: #isArray.
+	^ ((self extractRESTSimpleParametersFrom: simpleParameters)
+		, (self extractRESTListedParametersFrom: listedParameters)) asDictionary

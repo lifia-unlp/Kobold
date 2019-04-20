@@ -3,4 +3,5 @@ refactoringCode: refactoringId with: body
 	| refactoringClass refactoring |
 	refactoringClass := self refactoringWithId: refactoringId.
 	refactoring := refactoringClass fromRESTParameters: body.
-	^ refactoring script
+	^ {('initializationScript' -> refactoringClass initializationScript).
+	('script' -> refactoring script)} asDictionary
