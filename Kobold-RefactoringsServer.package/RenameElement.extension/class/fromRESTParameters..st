@@ -1,7 +1,7 @@
 *Kobold-RefactoringsServer
 fromRESTParameters: aDictionary
-	| attributes xpath url |
+	| attributes xpath newName |
 	attributes := self extractRESTParametersFrom: aDictionary.
 	xpath := attributes at: 1.
-	url := attributes at: 2.
-	^ self on: (DomElement xpath: xpath) urlString: url
+	newName := attributes at: 2.
+	^ self on: (DomElement xpath: xpath) newName: newName
