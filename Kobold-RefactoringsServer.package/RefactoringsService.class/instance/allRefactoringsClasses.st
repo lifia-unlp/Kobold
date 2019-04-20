@@ -1,0 +1,3 @@
+private
+allRefactoringsClasses
+	^ UsabilityRefactoring allConcreteSubclasses

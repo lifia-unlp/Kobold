@@ -6,4 +6,10 @@ initializePostMethods
 				-> [ :req | 
 					| body |
 					body := NeoJSONReader fromString: req contents.
-					self refactoringsFor: (req at: #smellId) with: body ]
+					self refactoringsFor: (req at: #smellId) with: body ];
+		POST:
+			'/refactorings/<refactoringId>'
+				-> [ :req | 
+					| body |
+					body := NeoJSONReader fromString: req contents.
+					self refactoringCode: (req at: #refactoringId) with: body ]
