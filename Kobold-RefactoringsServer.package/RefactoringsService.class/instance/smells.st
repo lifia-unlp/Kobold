@@ -6,4 +6,5 @@ smells
 			smell := smellClass new.
 			{('id' -> smellClass smellId).
 			('name' -> smell name).
-			('description' -> smell info)} asOrderedDictionary ]
+			('description' -> smell info).
+			('attributes' -> smellClass recommendationHelperAttributes)} asOrderedDictionary ]

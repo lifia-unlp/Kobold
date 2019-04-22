@@ -1,4 +1,5 @@
 singleton
 resetInstance
 	Instance ifNotNil: [ :instance | instance stop ].
-	Instance := nil
+	Instance := nil.
+	self instance

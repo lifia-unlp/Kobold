@@ -1,5 +1,5 @@
 endpoint-get
 initializeGetMethods
 	teapot
-		GET: '/smells' -> self smells;
-		GET: '/smells/<smellId>' -> [ :req | self smellDetailsWithId: (req at: #smellId) asNumber ]
+		GET: 'api/smells' -> self smells;
+		GET: 'api/smells/<smellId>' -> [ :req | self smellDetailsWithId: (req at: #smellId) asNumber ]

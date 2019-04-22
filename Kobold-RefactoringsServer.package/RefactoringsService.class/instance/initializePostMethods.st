@@ -2,7 +2,7 @@ endpoint-post
 initializePostMethods
 	teapot
 		POST:
-			'/smells/<smellId>/refactorings'
+			'api/smells/<smellId>/refactorings'
 				-> [ :req | 
 					| body |
 					req contents
@@ -10,7 +10,7 @@ initializePostMethods
 						ifNotNil: [ :contents | body := NeoJSONReader fromString: contents ].
 					self refactoringsFor: (req at: #smellId) with: body ];
 		POST:
-			'/refactorings/<refactoringId>'
+			'api/refactorings/<refactoringId>'
 				-> [ :req | 
 					| body |
 					req contents
