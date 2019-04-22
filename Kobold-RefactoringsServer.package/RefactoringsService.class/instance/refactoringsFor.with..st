@@ -5,8 +5,7 @@ refactoringsFor: smellId with: someParameters
 	refactorings := someParameters
 		ifEmpty: [ [ smell new suggestedRefactoringsClasses ]
 				on: Error
-				do:
-					[ ^ {('error' -> 'This smell requires extra attributes for recommending refactorings.')} asDictionary ] ]
+				do: [ ^ {('error' -> 'This smell requires extra attributes for recommending refactorings.')} asDictionary ] ]
 		ifNotEmpty: [ smell new suggestedRefactoringsClassesFrom: someParameters ].
 	^ refactorings
 		collect: [ :refactoringClass | 

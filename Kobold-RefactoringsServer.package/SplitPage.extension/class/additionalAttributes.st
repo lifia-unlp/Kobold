@@ -1,14 +1,14 @@
 *Kobold-RefactoringsServer
 additionalAttributes
 	^ {{('id' -> 1).
-	('label' -> 'xpath').
-	('description' -> 'Element''s XPath').
-	('type' -> 'X')} asDictionary.
+	('label' -> 'home').
+	('description' -> 'URL of the page with the long contents.').
+	('type' -> 'S')} asDictionary.
 	{{('id' -> 2).
-	('label' -> 'frequentValue').
-	('description' -> 'A frequent value for this input').
-	('type' -> 'T')} asDictionary.
-	{('id' -> 2).
-	('label' -> 'frequentValue').
-	('description' -> 'A frequent value for this input').
+	('label' -> 'section').
+	('description' -> 'XPath to the section').
+	('type' -> 'X')} asDictionary.
+	{('id' -> 3).
+	('label' -> 'sectionName').
+	('description' -> 'Section''s name').
 	('type' -> 'T')} asDictionary}}
