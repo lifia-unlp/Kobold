@@ -4,6 +4,7 @@ baseline: spec
 	spec
 		for: #common
 		do: [ self
+				grease: spec;
 				seaside: spec;
 				bootstrap: spec;
 				xmlParserHTML: spec;
