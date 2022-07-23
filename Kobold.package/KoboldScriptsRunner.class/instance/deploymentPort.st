@@ -1,3 +1,3 @@
 server
 deploymentPort
-	^ 8081
+	^ 8080

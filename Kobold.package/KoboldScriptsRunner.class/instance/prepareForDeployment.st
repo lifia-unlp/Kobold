@@ -5,7 +5,7 @@ prepareForDeployment
 		turnOffDebugging;
 		unregisterDevelopmentApplications;
 		setupServer;
-		setupMongoDatabase;
+		setupDatabaseFromEnv;
 		uploadFileLibraryToS3;
 		setDeploymentResourceBaseUrl;
 		migrateToLastVersion
