@@ -1,9 +1,10 @@
 initialization
 initialize
-	| credentials |
+	| accessKey secretAccessKey |
 	super initialize.
-	credentials := self credentialsPath asFileReference contents substrings: ','.
+	accessKey := OSEnvironment current at: 'AWS_ACCESS'.
+	secretAccessKey := OSEnvironment current at: 'AWS_SECRET'.
 	awsClient := ZnAWSS3Client new
-		accessKeyId: credentials first trimmed;
-		secretAccessKey: credentials second trimmed;
-		checkIntegrity: true
+		             accessKeyId: accessKey;
+		             secretAccessKey: secretAccessKey;
+		             checkIntegrity: true
