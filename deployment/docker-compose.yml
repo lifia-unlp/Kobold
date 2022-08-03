@@ -1,0 +1,40 @@
+version: '3'
+services:
+   mongo:
+      image: 'mongo:latest'
+      container_name: 'kobold-database'
+      environment:
+         - MONGO_INITDB_DATABASE=kobold
+         - MONGO_INITDB_ROOT_USERNAME=${MONGO_USERNAME}
+         - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
+      volumes:
+         - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+         - ./mongo-volume:/data/db
+      expose:
+         - '27017'
+
+   web:
+      container_name: 'kobold-web'
+      depends_on:
+         - 'mongo'
+      environment:
+         - DB_HOST=mongo
+         - DB=kobold
+         - DB_USER=${MONGO_USERNAME}
+         - DB_PASSWORD=${MONGO_PASSWORD}
+         - AWS_ACCESS
+         - AWS_SECRET
+      build:
+         context: .
+      expose:
+         - "8080"
+         
+   server:
+      container_name: 'kobold-server'
+      depends_on:
+         - 'web'
+      build:
+         context: .
+         dockerfile: Dockerfile.nginx
+      ports:
+         - "80:80"
